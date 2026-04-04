@@ -138,7 +138,7 @@
       <div class="status-bar"><span class="status-dot" id="statusDot"></span><span id="statusText">Checking...</span></div>
       <div class="month-picker" onclick="toggleDD()">
         <span class="material-symbols-rounded">calendar_month</span>
-        <span class="label" id="mLabel">Loading...</span>
+        <span class="label" id="mLabel"></span>
         <span class="material-symbols-rounded">expand_more</span>
         <div class="month-dd" id="mDD">
           <div class="month-dd-header">
@@ -424,14 +424,19 @@
   // ===== LOAD ALL =====
   async function loadAll(){
     allExpenses = await apiGet('/api/expenses');
+    buildYearOptions(); buildDD(); render();
+  }
+
+  function initMonth(){
     var now = new Date();
     viewYear = now.getFullYear();
     curM = now.getFullYear()+'-'+String(now.getMonth()+1).padStart(2,'0');
-    buildYearOptions(); buildDD(); render();
+    $('mLabel').textContent = MONTHS[now.getMonth()]+' '+now.getFullYear();
   }
 
   // ===== INIT =====
   async function init(){
+    initMonth();
     try {
       await apiGet('/api/expenses');
       $('statusDot').className='status-dot online';
@@ -443,7 +448,8 @@
     } catch(e){
       $('statusDot').className='status-dot offline';
       $('statusText').textContent='Offline';
-      $('loading').innerHTML='<div style="font-size:48px;margin-bottom:12px">⚠️</div><p style="color:var(--text-dim)">Could not connect to server.<br>Make sure the backend is running.</p><p style="color:var(--text-muted);font-size:.75rem;margin-top:8px">'+API_URL+'</p>';
+      initCharts();
+      buildYearOptions(); buildDD(); render();
     }
   }
 
