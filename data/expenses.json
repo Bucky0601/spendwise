@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "id": 1775301465457,
+    "date": "2026-04-01",
+    "description": "Breakfast + Lunch",
+    "amount": 100,
+    "category": "Food"
+  }
+]
