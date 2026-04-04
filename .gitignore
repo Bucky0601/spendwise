@@ -1,3 +1,14 @@
 node_modules
 .env
 *.db
+
+# Android / TWA
+android/app/build/
+android/local.properties
+android/.gradle/
+android/.idea/
+android/.kotlin/
+
+# Build scripts
+public/assets/icons/gen-icons.js
+public/assets/icons/android-*.png

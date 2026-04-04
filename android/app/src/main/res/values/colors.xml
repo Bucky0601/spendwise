@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="statusBarColor">#0f0f14</color>
+    <color name="navigationBarColor">#0f0f14</color>
+    <color name="splashScreenBackground">#0f0f14</color>
+</resources>

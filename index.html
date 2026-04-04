@@ -4,6 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SpendWise — Smart Expense Tracker</title>
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#0f0f14">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="SpendWise">
+<link rel="apple-touch-icon" href="/assets/icons/icon-192x192.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" rel="stylesheet">
@@ -136,6 +142,7 @@
     <div class="logo"><div class="logo-icon"><span class="material-symbols-rounded">trending_down</span></div><div class="logo-text">Spend<span>Wise</span></div></div>
     <div style="display:flex;align-items:center;gap:10px">
       <div class="status-bar"><span class="status-dot" id="statusDot"></span><span id="statusText">Checking...</span></div>
+      <a id="apkBtn" class="btn detail-btn" href="https://spendwise-drab-seven.vercel.app/spendwise.apk" style="display:none;padding:6px 12px;font-size:.72rem" download><span class="material-symbols-rounded" style="font-size:15px">android</span> APK</a>
       <div class="month-picker" onclick="toggleDD()">
         <span class="material-symbols-rounded">calendar_month</span>
         <span class="label" id="mLabel"></span>
@@ -192,6 +199,12 @@
 </div>
 
 <div class="toast" id="toast"></div>
+
+<div id="installBar" style="position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:var(--card);border:1px solid var(--border);border-radius:var(--radius-sm);padding:10px 16px;display:none;align-items:center;gap:12px;z-index:250;box-shadow:0 12px 48px rgba(0,0,0,.5)">
+  <span style="font-size:.78rem;font-weight:600;color:var(--text)">Install SpendWise</span>
+  <button id="installBtn" style="background:var(--gradient);color:#fff;border:none;border-radius:8px;padding:7px 18px;font-weight:700;font-size:.75rem;cursor:pointer;font-family:inherit">Install</button>
+  <button id="dismissBtn" style="background:var(--surface);color:var(--text-dim);border:1px solid var(--border);border-radius:8px;padding:7px 12px;font-size:.75rem;cursor:pointer;font-family:inherit">✕</button>
+</div>
 
 <script>
   // ===== CONFIG =====
@@ -451,6 +464,52 @@
       initCharts();
       buildYearOptions(); buildDD(); render();
     }
+  }
+
+  // ===== PWA =====
+  var promptEvent;
+  var installBar = document.getElementById('installBar');
+  var installBtn = document.getElementById('installBtn');
+  var dismissBtn = document.getElementById('dismissBtn');
+  var apkBtn = document.getElementById('apkBtn');
+
+  window.addEventListener('beforeinstallprompt', function(e){
+    e.preventDefault();
+    promptEvent = e;
+    installBar.style.display = 'flex';
+    if (apkBtn) apkBtn.style.display = 'inline-flex';
+  });
+
+  if (installBtn) {
+    installBtn.addEventListener('click', function(){
+      if (!promptEvent) return;
+      promptEvent.prompt();
+      installBar.style.display = 'none';
+      promptEvent.userChoice.then(function(choice){
+        if (choice.outcome === 'accepted') { promptEvent = null; }
+      });
+    });
+  }
+  if (dismissBtn) {
+    dismissBtn.addEventListener('click', function(){
+      installBar.style.display = 'none';
+    });
+  }
+
+  window.addEventListener('appinstalled', function(){
+    installBar.style.display = 'none';
+    promptEvent = null;
+  });
+
+  // ===== SERVICE WORKER =====
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function(){
+      navigator.serviceWorker.register('/sw.js').then(function(reg){
+        console.log('SW registered', reg.scope);
+      }).catch(function(err){
+        console.log('SW registration failed', err);
+      });
+    });
   }
 
   document.addEventListener('DOMContentLoaded', init);
