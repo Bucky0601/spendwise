@@ -429,7 +429,7 @@
   // ===== INIT =====
   async function init(){
     try {
-      await apiGet('/api/health');
+      await apiGet('/api/expenses');
       $('statusDot').className='status-dot online';
       $('statusText').textContent='Online';
       initCharts();
