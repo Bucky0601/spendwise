@@ -54,5 +54,12 @@
     "description": "grocery (flipkart)",
     "amount": 315,
     "category": "Grocery"
+  },
+  {
+    "id": 1775311898559,
+    "date": "2026-04-04",
+    "description": "Sports goggles (lenskart)",
+    "amount": 1200,
+    "category": "Shopping"
   }
 ]
