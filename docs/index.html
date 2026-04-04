@@ -42,6 +42,8 @@
   .month-dd-grid button.has-data{position:relative}
   .month-dd-grid button.has-data::after{content:'';position:absolute;bottom:4px;left:50%;transform:translateX(-50%);width:4px;height:4px;background:var(--success);border-radius:50%;opacity:.7}
   .month-dd-grid button.has-data.active::after{background:#fff;opacity:1}
+  .month-dd-grid button.is-current-month::before{content:'';position:absolute;bottom:4px;left:50%;transform:translateX(-50%);width:4px;height:4px;background:var(--accent);border-radius:50%;opacity:.9}
+  .month-dd-grid button.has-data.active::before{background:#fff}
   .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;flex-shrink:0}
   .stat-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:12px 16px;position:relative;overflow:hidden}
   .stat-card:hover{border-color:rgba(255,255,255,.1)}
@@ -250,6 +252,8 @@
   function buildDD(){
     var dataMonths = new Set();
     allExpenses.forEach(function(e){ dataMonths.add(e.date.substring(0,7)); });
+    var now = new Date();
+    var curMonthKey = now.getFullYear()+'-'+String(now.getMonth()+1).padStart(2,'0');
     var grid = $('mGrid');
     grid.innerHTML = '';
     for(var i=0; i<12; i++){
@@ -257,16 +261,18 @@
       var key = viewYear+'-'+m;
       var hasData = dataMonths.has(key);
       var isActive = (key === curM);
+      var isCurrent = (key === curMonthKey);
       var cls = 'month-dd-grid button';
       if(hasData) cls += ' has-data';
       if(isActive) cls += ' active';
+      if(isCurrent && !hasData) cls += ' is-current-month';
       var btn = document.createElement('button');
       btn.className = cls;
       btn.textContent = MONTHS[i];
       btn.onclick = (function(k, lbl){ return function(){ curM=k; closeDD(); $('mLabel').textContent=lbl; render(); }; })(key, MONTHS[i]+' '+viewYear);
       grid.appendChild(btn);
     }
-    $('mLabel').textContent = MONTHS[new Date().getMonth()]+' '+viewYear;
+    $('mLabel').textContent = MONTHS[now.getMonth()]+' '+viewYear;
   }
 
   function changeYear(val){ viewYear = parseInt(val); buildDD(); }
