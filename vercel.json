@@ -1,11 +1,6 @@
 {
   "rewrites": [
-    { "source": "/(.*)", "destination": "/$1" }
-  ],
-  "headers": [
-    {
-      "source": "/index.html",
-      "headers": [{ "key": "Content-Type", "value": "text/html" }]
-    }
+    { "source": "/api/expenses", "destination": "/api/expenses" },
+    { "source": "/((?!api/).*)", "destination": "/index.html" }
   ]
 }

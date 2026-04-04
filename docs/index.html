@@ -141,7 +141,7 @@
         <span class="material-symbols-rounded">expand_more</span>
         <div class="month-dd" id="mDD">
           <div class="month-dd-header">
-            <select id="yearSelect" onchange="changeYear(this.value)"></select>
+            <select id="yearSelect" onchange="changeYear(this.value)" onclick="event.stopPropagation()"></select>
           </div>
           <div class="month-dd-grid" id="mGrid"></div>
         </div>
@@ -195,7 +195,7 @@
 <script>
   // ===== CONFIG =====
   // Change this to your deployed server URL
-  var API_URL = 'https://spendwise-server-t3w0.onrender.com';
+  var API_URL = '';
 
   var CATS = {
     Food:{color:'#ff6b6b',icon:'restaurant'},Transport:{color:'#fbbf24',icon:'directions_car'},
@@ -210,17 +210,18 @@
   var $ = function(id){ return document.getElementById(id); };
 
   // ===== API =====
+  function apiUrl(path){ return API_URL ? API_URL + path : path; }
   async function apiGet(url){
-    var r = await fetch(API_URL + url);
+    var r = await fetch(apiUrl(url));
     if(!r.ok) throw new Error('API error');
     return r.json();
   }
   async function apiPost(url, body){
-    var r = await fetch(API_URL + url, { method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(body) });
+    var r = await fetch(apiUrl(url), { method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(body) });
     return r.json();
   }
   async function apiDelete(url){
-    await fetch(API_URL + url, { method:'DELETE' });
+    await fetch(apiUrl(url), { method:'DELETE' });
   }
 
   // ===== MONTH =====
@@ -237,7 +238,7 @@
     var sel = $('yearSelect');
     var cur = new Date().getFullYear();
     sel.innerHTML = '';
-    for(var yy = cur - 50; yy <= cur + 5; yy++){
+    for(var yy = 2026; yy <= 2100; yy++){
       var opt = document.createElement('option');
       opt.value = yy;
       opt.textContent = yy;
@@ -274,7 +275,8 @@
   function toggleDD(){ $('mDD').classList.toggle('show'); }
   function closeDD(){ $('mDD').classList.remove('show'); }
   document.addEventListener('click',function(e){
-    if(!e.target.closest('.month-picker')) closeDD();
+    var picker = document.querySelector('.month-picker');
+    if(picker && !picker.contains(e.target)) closeDD();
   });
 
   // ===== MODAL =====
