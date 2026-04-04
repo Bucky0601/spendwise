@@ -1,15 +1,10 @@
 {
   "name": "spendwise-server",
   "version": "1.0.0",
-  "description": "Expense tracker backend with Telegram alerts",
   "main": "server.js",
   "engines": { "node": ">=16" },
-  "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js"
-  },
+  "scripts": { "start": "node server.js" },
   "dependencies": {
-    "better-sqlite3": "^11.5.0",
     "cors": "^2.8.5",
     "express": "^4.21.0",
     "node-cron": "^3.0.3",
