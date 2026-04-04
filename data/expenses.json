@@ -47,5 +47,12 @@
     "description": "TATA Omega-3 (amazon)",
     "amount": 740,
     "category": "Health"
+  },
+  {
+    "id": 1775301660074,
+    "date": "2026-04-04",
+    "description": "grocery (flipkart)",
+    "amount": 315,
+    "category": "Grocery"
   }
 ]
