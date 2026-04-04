@@ -141,7 +141,7 @@
         <span class="material-symbols-rounded">expand_more</span>
         <div class="month-dd" id="mDD">
           <div class="month-dd-header">
-            <select id="yearSelect" onchange="changeYear(this.value)"></select>
+            <select id="yearSelect" onchange="changeYear(this.value)" onclick="event.stopPropagation()"></select>
           </div>
           <div class="month-dd-grid" id="mGrid"></div>
         </div>
@@ -274,7 +274,8 @@
   function toggleDD(){ $('mDD').classList.toggle('show'); }
   function closeDD(){ $('mDD').classList.remove('show'); }
   document.addEventListener('click',function(e){
-    if(!e.target.closest('.month-picker')) closeDD();
+    var picker = document.querySelector('.month-picker');
+    if(picker && !picker.contains(e.target)) closeDD();
   });
 
   // ===== MODAL =====
