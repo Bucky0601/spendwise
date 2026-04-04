@@ -5,5 +5,12 @@
     "description": "Breakfast + Lunch",
     "amount": 100,
     "category": "Food"
+  },
+  {
+    "id": 1775301488741,
+    "date": "2026-04-01",
+    "description": "Braodband bill",
+    "amount": 1710,
+    "category": "Bills & Utilities"
   }
 ]
