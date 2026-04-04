@@ -42,8 +42,7 @@
   .month-dd-grid button.has-data{position:relative}
   .month-dd-grid button.has-data::after{content:'';position:absolute;bottom:4px;left:50%;transform:translateX(-50%);width:4px;height:4px;background:var(--success);border-radius:50%;opacity:.7}
   .month-dd-grid button.has-data.active::after{background:#fff;opacity:1}
-  .month-dd-grid button.is-current-month::before{content:'';position:absolute;bottom:4px;left:50%;transform:translateX(-50%);width:4px;height:4px;background:var(--accent);border-radius:50%;opacity:.9}
-  .month-dd-grid button.has-data.active::before{background:#fff}
+  .month-dd-grid button.is-current{border-color:#ef4444 !important; color:#ef4444 !important}
   .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;flex-shrink:0}
   .stat-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:12px 16px;position:relative;overflow:hidden}
   .stat-card:hover{border-color:rgba(255,255,255,.1)}
@@ -265,7 +264,7 @@
       var cls = 'month-dd-grid button';
       if(hasData) cls += ' has-data';
       if(isActive) cls += ' active';
-      if(isCurrent && !hasData) cls += ' is-current-month';
+      if(isCurrent && !hasData && !isActive) cls += ' is-current';
       var btn = document.createElement('button');
       btn.className = cls;
       btn.textContent = MONTHS[i];
