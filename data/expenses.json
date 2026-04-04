@@ -12,5 +12,12 @@
     "description": "Braodband bill",
     "amount": 1710,
     "category": "Bills & Utilities"
+  },
+  {
+    "id": 1775301515422,
+    "date": "2026-04-01",
+    "description": "BBMP cleaner",
+    "amount": 100,
+    "category": "Bills & Utilities"
   }
 ]
