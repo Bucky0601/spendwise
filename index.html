@@ -27,10 +27,20 @@
   .month-picker:hover{background:var(--card-hover);border-color:var(--accent)}
   .month-picker .material-symbols-rounded{font-size:16px;color:var(--text-dim)}
   .month-picker .label{font-size:.85rem;font-weight:600;min-width:150px;text-align:center}
-  .month-dropdown{position:absolute;top:calc(100% + 6px);right:0;min-width:200px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);z-index:100;overflow:hidden;display:none}
-  .month-dropdown.show{display:block}
-  .month-dropdown-item{padding:9px 14px;font-size:.82rem;cursor:pointer}
-  .month-dropdown-item:hover,.month-dropdown-item.active{background:var(--accent);color:#fff}
+  .month-dd{position:absolute;top:calc(100% + 8px);right:-20px;width:280px;background:var(--card);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);z-index:100;overflow:hidden;display:none;animation:ddIn .2s ease}
+  .month-dd.show{display:block}
+  @keyframes ddIn{from{opacity:0;transform:translateY(-8px) scale(.96)}}
+  .month-dd-header{display:flex;align-items:center;justify-content:space-between;padding:12px 14px;border-bottom:1px solid var(--border)}
+  .month-dd-header span{font-size:.85rem;font-weight:700;min-width:50px;text-align:center}
+  .month-dd-nav{background:none;border:1px solid var(--border);border-radius:6px;color:var(--text);width:28px;height:28px;display:grid;place-items:center;cursor:pointer;font-size:18px}
+  .month-dd-nav:hover{background:var(--accent);border-color:var(--accent);color:#fff}
+  .month-dd-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;padding:10px 14px 14px}
+  .month-dd-grid button{background:none;border:1.5px solid transparent;border-radius:8px;padding:10px 4px;color:var(--text-dim);font-size:.78rem;font-weight:600;cursor:pointer;transition:var(--transition);font-family:Inter,system-ui,sans-serif}
+  .month-dd-grid button:hover{background:var(--accent);border-color:var(--accent);color:#fff}
+  .month-dd-grid button.active{background:var(--accent);border-color:var(--accent);color:#fff}
+  .month-dd-grid button.has-data{position:relative}
+  .month-dd-grid button.has-data::after{content:'';position:absolute;bottom:4px;left:50%;transform:translateX(-50%);width:4px;height:4px;background:var(--success);border-radius:50%;opacity:.7}
+  .month-dd-grid button.has-data.active::after{background:#fff;opacity:1}
   .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;flex-shrink:0}
   .stat-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:12px 16px;position:relative;overflow:hidden}
   .stat-card:hover{border-color:rgba(255,255,255,.1)}
@@ -128,7 +138,14 @@
         <span class="material-symbols-rounded">calendar_month</span>
         <span class="label" id="mLabel">Loading...</span>
         <span class="material-symbols-rounded">expand_more</span>
-        <div class="month-dropdown" id="mDD"></div>
+        <div class="month-dd" id="mDD">
+          <div class="month-dd-header">
+            <button class="month-dd-nav" onclick="prevYear()">chevron_left</button>
+            <span id="yyLabel"></span>
+            <button class="month-dd-nav" onclick="nextYear()">chevron_right</button>
+          </div>
+          <div class="month-dd-grid" id="mGrid"></div>
+        </div>
       </div>
     </div>
   </header>
@@ -212,22 +229,41 @@
   var esc = function(s){ var d=document.createElement('div'); d.textContent=s; return d.innerHTML; };
   var fmt = function(n){ return Number(n).toLocaleString('en-IN'); };
 
+  // ===== MONTH CALENDAR PICKER =====
+  var viewYear = new Date().getFullYear();
+  var MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+
   function buildDD(){
-    var ms=new Set(), now=new Date(); ms.add(mS(now));
-    allExpenses.forEach(function(e){ ms.add(e.date.substring(0,7)); });
-    var sorted=[...ms].sort().reverse();
-    curM=(curM&&ms.has(curM))?curM:sorted[0];
-    var dd=$('mDD');
-    dd.innerHTML=sorted.map(function(m){
-      return '<div class="month-dropdown-item'+(m===curM?' active':'')+'" onclick="selM(\''+m+'\')">'+mL(m)+'</div>';
-    }).join('');
-    $('mLabel').textContent=mL(curM);
+    var dataMonths = new Set();
+    allExpenses.forEach(function(e){ dataMonths.add(e.date.substring(0,7)); });
+    var grid = $('mGrid');
+    grid.innerHTML = '';
+    for(var i=0; i<12; i++){
+      var m = String(i+1).padStart(2,'0');
+      var key = viewYear+'-'+m;
+      var label = MONTHS[i];
+      var hasData = dataMonths.has(key);
+      var isActive = (key === curM);
+      var cls = 'month-dd-grid button';
+      if(hasData) cls += ' has-data';
+      if(isActive) cls += ' active';
+      var btn = document.createElement('button');
+      btn.className = cls;
+      btn.textContent = label;
+      btn.onclick = (function(k, lbl){ return function(){ curM=k; closeDD(); $('mLabel').textContent=lbl; render(); }; })(key, label+' '+viewYear);
+      grid.appendChild(btn);
+    }
+    $('yyLabel').textContent = viewYear;
   }
 
-  function selM(m){ curM=m; $('mDD').classList.remove('show'); $('mLabel').textContent=mL(m); render(); }
+  function prevYear(){ viewYear--; buildDD(); }
+  function nextYear(){ viewYear++; buildDD(); }
+
+  function selM(m){ curM=m; closeDD(); $('mLabel').textContent=mL(m); render(); }
   function toggleDD(){ $('mDD').classList.toggle('show'); }
+  function closeDD(){ $('mDD').classList.remove('show'); }
   document.addEventListener('click',function(e){
-    if(!e.target.closest('.month-picker')) $('mDD').classList.remove('show');
+    if(!e.target.closest('.month-picker')) closeDD();
   });
 
   // ===== MODAL =====
