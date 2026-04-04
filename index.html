@@ -30,11 +30,12 @@
   .month-dd{position:absolute;top:calc(100% + 8px);right:-20px;width:280px;background:var(--card);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);z-index:100;overflow:hidden;display:none;animation:ddIn .2s ease}
   .month-dd.show{display:block}
   @keyframes ddIn{from{opacity:0;transform:translateY(-8px) scale(.96)}}
-  .month-dd-header{display:flex;align-items:center;justify-content:space-between;padding:12px 14px;border-bottom:1px solid var(--border)}
-  .month-dd-header span{font-size:.85rem;font-weight:700;min-width:50px;text-align:center}
-  .month-dd-nav{background:none;border:1px solid var(--border);border-radius:6px;color:var(--text);width:28px;height:28px;display:grid;place-items:center;cursor:pointer;font-size:18px}
-  .month-dd-nav:hover{background:var(--accent);border-color:var(--accent);color:#fff}
-  .month-dd-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;padding:10px 14px 14px}
+  .month-dd-header{display:flex;align-items:center;justify-content:space-between;padding:10px 12px;gap:8px;border-bottom:1px solid var(--border)}
+  .month-dd-header button{background:none;border:1px solid var(--border);border-radius:6px;color:var(--text);width:26px;height:26px;display:grid;place-items:center;cursor:pointer;font-size:15px}
+  .month-dd-header button:hover{background:var(--accent);border-color:var(--accent);color:#fff}
+  #yearSelect{background:var(--surface);border:1px solid var(--border);border-radius:6px;color:var(--text);padding:3px 6px;font-size:.8rem;font-weight:700;font-family:Inter,system-ui,sans-serif;cursor:pointer;outline:none;min-width:70px;text-align:center}
+  #yearSelect option{background:var(--card);color:var(--text)}
+  .month-dd-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:4px;padding:10px 12px 14px}
   .month-dd-grid button{background:none;border:1.5px solid transparent;border-radius:8px;padding:10px 4px;color:var(--text-dim);font-size:.78rem;font-weight:600;cursor:pointer;transition:var(--transition);font-family:Inter,system-ui,sans-serif}
   .month-dd-grid button:hover{background:var(--accent);border-color:var(--accent);color:#fff}
   .month-dd-grid button.active{background:var(--accent);border-color:var(--accent);color:#fff}
@@ -140,9 +141,7 @@
         <span class="material-symbols-rounded">expand_more</span>
         <div class="month-dd" id="mDD">
           <div class="month-dd-header">
-            <button class="month-dd-nav" onclick="prevYear()">chevron_left</button>
-            <span id="yyLabel"></span>
-            <button class="month-dd-nav" onclick="nextYear()">chevron_right</button>
+            <select id="yearSelect" onchange="changeYear(this.value)"></select>
           </div>
           <div class="month-dd-grid" id="mGrid"></div>
         </div>
@@ -206,7 +205,8 @@
     Grocery:{color:'#a3e635',icon:'shopping_cart'},Other:{color:'#94a3b8',icon:'label_important'}
   };
 
-  var curM = null, dChart, bChart, allExpenses = [];
+  var curM = new Date().getFullYear()+'-'+String(new Date().getMonth()+1).padStart(2,'0');
+  var dChart, bChart, allExpenses = [];
   var $ = function(id){ return document.getElementById(id); };
 
   // ===== API =====
@@ -233,6 +233,19 @@
   var viewYear = new Date().getFullYear();
   var MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
 
+  function buildYearOptions(){
+    var sel = $('yearSelect');
+    var cur = new Date().getFullYear();
+    sel.innerHTML = '';
+    for(var yy = cur - 50; yy <= cur + 5; yy++){
+      var opt = document.createElement('option');
+      opt.value = yy;
+      opt.textContent = yy;
+      if(yy === viewYear) opt.selected = true;
+      sel.appendChild(opt);
+    }
+  }
+
   function buildDD(){
     var dataMonths = new Set();
     allExpenses.forEach(function(e){ dataMonths.add(e.date.substring(0,7)); });
@@ -241,7 +254,6 @@
     for(var i=0; i<12; i++){
       var m = String(i+1).padStart(2,'0');
       var key = viewYear+'-'+m;
-      var label = MONTHS[i];
       var hasData = dataMonths.has(key);
       var isActive = (key === curM);
       var cls = 'month-dd-grid button';
@@ -249,15 +261,14 @@
       if(isActive) cls += ' active';
       var btn = document.createElement('button');
       btn.className = cls;
-      btn.textContent = label;
-      btn.onclick = (function(k, lbl){ return function(){ curM=k; closeDD(); $('mLabel').textContent=lbl; render(); }; })(key, label+' '+viewYear);
+      btn.textContent = MONTHS[i];
+      btn.onclick = (function(k, lbl){ return function(){ curM=k; closeDD(); $('mLabel').textContent=lbl; render(); }; })(key, MONTHS[i]+' '+viewYear);
       grid.appendChild(btn);
     }
-    $('yyLabel').textContent = viewYear;
+    $('mLabel').textContent = MONTHS[new Date().getMonth()]+' '+viewYear;
   }
 
-  function prevYear(){ viewYear--; buildDD(); }
-  function nextYear(){ viewYear++; buildDD(); }
+  function changeYear(val){ viewYear = parseInt(val); buildDD(); }
 
   function selM(m){ curM=m; closeDD(); $('mLabel').textContent=mL(m); render(); }
   function toggleDD(){ $('mDD').classList.toggle('show'); }
@@ -407,7 +418,10 @@
   // ===== LOAD ALL =====
   async function loadAll(){
     allExpenses = await apiGet('/api/expenses');
-    buildDD(); render();
+    var now = new Date();
+    viewYear = now.getFullYear();
+    curM = now.getFullYear()+'-'+String(now.getMonth()+1).padStart(2,'0');
+    buildYearOptions(); buildDD(); render();
   }
 
   // ===== INIT =====
