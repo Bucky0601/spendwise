@@ -26,5 +26,12 @@
     "description": "Room rent",
     "amount": 31534.5,
     "category": "Rent"
+  },
+  {
+    "id": 1775301573508,
+    "date": "2026-04-02",
+    "description": "Badminton string",
+    "amount": 550,
+    "category": "Other"
   }
 ]
