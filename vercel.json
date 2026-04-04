@@ -1,0 +1,11 @@
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/$1" }
+  ],
+  "headers": [
+    {
+      "source": "/index.html",
+      "headers": [{ "key": "Content-Type", "value": "text/html" }]
+    }
+  ]
+}
