@@ -40,5 +40,12 @@
     "description": "Breakfast + Lunch",
     "amount": 75,
     "category": "Food"
+  },
+  {
+    "id": 1775301635955,
+    "date": "2026-04-03",
+    "description": "TATA Omega-3 (amazon)",
+    "amount": 740,
+    "category": "Health"
   }
 ]
