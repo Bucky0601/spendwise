@@ -68,5 +68,12 @@
     "description": "Petrol filling",
     "amount": 318,
     "category": "Transport"
+  },
+  {
+    "id": 1775311946955,
+    "date": "2026-04-04",
+    "description": "Parking (lenskart)",
+    "amount": 40,
+    "category": "Other"
   }
 ]
