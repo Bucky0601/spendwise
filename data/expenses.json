@@ -19,5 +19,12 @@
     "description": "BBMP cleaner",
     "amount": 100,
     "category": "Bills & Utilities"
+  },
+  {
+    "id": 1775301540726,
+    "date": "2026-04-01",
+    "description": "Room rent",
+    "amount": 31534.5,
+    "category": "Rent"
   }
 ]
