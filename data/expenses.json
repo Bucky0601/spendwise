@@ -75,5 +75,12 @@
     "description": "Parking (lenskart)",
     "amount": 40,
     "category": "Other"
+  },
+  {
+    "id": 1775311966737,
+    "date": "2026-04-04",
+    "description": "Break tight",
+    "amount": 10,
+    "category": "Other"
   }
 ]
