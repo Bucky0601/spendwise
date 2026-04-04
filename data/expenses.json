@@ -61,5 +61,12 @@
     "description": "Sports goggles (lenskart)",
     "amount": 1200,
     "category": "Shopping"
+  },
+  {
+    "id": 1775311923435,
+    "date": "2026-04-04",
+    "description": "Petrol filling",
+    "amount": 318,
+    "category": "Transport"
   }
 ]
