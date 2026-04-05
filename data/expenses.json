@@ -82,5 +82,12 @@
     "description": "Break tight",
     "amount": 10,
     "category": "Other"
+  },
+  {
+    "id": 1775384888789,
+    "date": "2026-04-05",
+    "description": "Track pant (amazon)",
+    "amount": 1505,
+    "category": "Shopping"
   }
 ]
