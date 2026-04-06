@@ -96,5 +96,12 @@
     "description": "Parking (lenskart)",
     "amount": 40,
     "category": "Other"
+  },
+  {
+    "id": 1775489817464,
+    "date": "2026-04-06",
+    "description": "Mr. DIY (tyre puncture repair kit)",
+    "amount": 170,
+    "category": "Bills & Utilities"
   }
 ]
