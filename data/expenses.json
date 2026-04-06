@@ -103,5 +103,12 @@
     "description": "Mr. DIY (tyre puncture repair kit)",
     "amount": 170,
     "category": "Bills & Utilities"
+  },
+  {
+    "id": 1775489845112,
+    "date": "2026-04-06",
+    "description": "Mr. DIY (Cap)",
+    "amount": 270,
+    "category": "Shopping"
   }
 ]
