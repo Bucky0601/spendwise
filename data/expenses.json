@@ -110,5 +110,12 @@
     "description": "Mr. DIY (Cap)",
     "amount": 270,
     "category": "Shopping"
+  },
+  {
+    "id": 1775489947264,
+    "date": "2026-04-06",
+    "description": "Mr. DIY (100w cable)",
+    "amount": 300,
+    "category": "Shopping"
   }
 ]
