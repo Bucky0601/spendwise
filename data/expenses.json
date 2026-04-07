@@ -117,5 +117,12 @@
     "description": "Mr. DIY (100w cable)",
     "amount": 300,
     "category": "Shopping"
+  },
+  {
+    "id": 1775550982890,
+    "date": "2026-04-07",
+    "description": "Breakfast + lunch",
+    "amount": 78,
+    "category": "Food"
   }
 ]
