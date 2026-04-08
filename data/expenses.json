@@ -138,5 +138,12 @@
     "description": "Vegetable + fruits",
     "amount": 272,
     "category": "Food"
+  },
+  {
+    "id": 1775664140520,
+    "date": "2026-04-08",
+    "description": "Fielding gloves + resistance bands (swiggy)",
+    "amount": 736,
+    "category": "Health"
   }
 ]
