@@ -145,5 +145,12 @@
     "description": "Fielding gloves + resistance bands (swiggy)",
     "amount": 736,
     "category": "Health"
+  },
+  {
+    "id": 1775664171644,
+    "date": "2026-04-08",
+    "description": "Milk + curd",
+    "amount": 156,
+    "category": "Grocery"
   }
 ]
