@@ -124,5 +124,12 @@
     "description": "Breakfast + lunch",
     "amount": 78,
     "category": "Food"
+  },
+  {
+    "id": 1775621792617,
+    "date": "2026-04-08",
+    "description": "Breakfast",
+    "amount": 65,
+    "category": "Food"
   }
 ]
