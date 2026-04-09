@@ -152,5 +152,12 @@
     "description": "Milk + curd",
     "amount": 156,
     "category": "Grocery"
+  },
+  {
+    "id": 1775751999774,
+    "date": "2026-04-09",
+    "description": "Electricity bill",
+    "amount": 493,
+    "category": "Bills & Utilities"
   }
 ]
