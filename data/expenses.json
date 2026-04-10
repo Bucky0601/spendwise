@@ -180,5 +180,12 @@
     "description": "Mop for home (amazon)",
     "amount": 754,
     "category": "Shopping"
+  },
+  {
+    "id": 1775835294492,
+    "date": "2026-04-10",
+    "description": "Hair cutting",
+    "amount": 200,
+    "category": "Other"
   }
 ]
