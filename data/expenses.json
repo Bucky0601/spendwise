@@ -187,5 +187,12 @@
     "description": "Hair cutting",
     "amount": 200,
     "category": "Other"
+  },
+  {
+    "id": 1775835316657,
+    "date": "2026-04-10",
+    "description": "Paan",
+    "amount": 52,
+    "category": "Food"
   }
 ]
