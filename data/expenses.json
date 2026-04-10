@@ -194,5 +194,12 @@
     "description": "Paan",
     "amount": 52,
     "category": "Food"
+  },
+  {
+    "id": 1775835368623,
+    "date": "2026-04-10",
+    "description": "Matchbox",
+    "amount": 10,
+    "category": "Food"
   }
 ]
