@@ -159,5 +159,12 @@
     "description": "Electricity bill",
     "amount": 493,
     "category": "Bills & Utilities"
+  },
+  {
+    "id": 1775814031062,
+    "date": "2026-04-10",
+    "description": "Petrol filling",
+    "amount": 309.91,
+    "category": "Transport"
   }
 ]
