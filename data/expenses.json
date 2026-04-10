@@ -166,5 +166,12 @@
     "description": "Petrol filling",
     "amount": 309.91,
     "category": "Transport"
+  },
+  {
+    "id": 1775814053355,
+    "date": "2026-04-10",
+    "description": "Cricket nets share",
+    "amount": 38,
+    "category": "Health"
   }
 ]
