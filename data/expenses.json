@@ -208,5 +208,12 @@
     "description": "Vegetable + fruits",
     "amount": 217,
     "category": "Food"
+  },
+  {
+    "id": 1775895219428,
+    "date": "2026-04-11",
+    "description": "Banana",
+    "amount": 40,
+    "category": "Food"
   }
 ]
