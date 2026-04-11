@@ -215,5 +215,12 @@
     "description": "Banana",
     "amount": 40,
     "category": "Food"
+  },
+  {
+    "id": 1775918979612,
+    "date": "2026-04-11",
+    "description": "Grocery (flipkart)",
+    "amount": 260,
+    "category": "Grocery"
   }
 ]
