@@ -222,5 +222,12 @@
     "description": "Grocery (flipkart)",
     "amount": 260,
     "category": "Grocery"
+  },
+  {
+    "id": 1775920860166,
+    "date": "2026-04-11",
+    "description": "Electricity bill home (amazon)",
+    "amount": 650,
+    "category": "Bills & Utilities"
   }
 ]
