@@ -201,5 +201,12 @@
     "description": "Matchbox",
     "amount": 10,
     "category": "Food"
+  },
+  {
+    "id": 1775877146230,
+    "date": "2026-04-11",
+    "description": "Vegetable + fruits",
+    "amount": 217,
+    "category": "Food"
   }
 ]
