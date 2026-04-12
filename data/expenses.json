@@ -229,5 +229,12 @@
     "description": "Electricity bill home (amazon)",
     "amount": 650,
     "category": "Bills & Utilities"
+  },
+  {
+    "id": 1775970709552,
+    "date": "2026-04-12",
+    "description": "Grocery (Amazon)",
+    "amount": 415.49,
+    "category": "Grocery"
   }
 ]
