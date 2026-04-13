@@ -236,5 +236,12 @@
     "description": "Grocery (Amazon)",
     "amount": 415.49,
     "category": "Grocery"
+  },
+  {
+    "id": 1776091116399,
+    "date": "2026-04-13",
+    "description": "Open router credit ($10) (scapia)",
+    "amount": 1001.97,
+    "category": "Bills & Utilities"
   }
 ]
