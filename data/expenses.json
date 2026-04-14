@@ -243,5 +243,12 @@
     "description": "Open router credit ($10) (scapia)",
     "amount": 1001.97,
     "category": "Bills & Utilities"
+  },
+  {
+    "id": 1776136058384,
+    "date": "2026-04-14",
+    "description": "Breakfast",
+    "amount": 50,
+    "category": "Food"
   }
 ]
