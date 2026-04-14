@@ -264,5 +264,12 @@
     "description": "Lunch",
     "amount": 25,
     "category": "Food"
+  },
+  {
+    "id": 1776186824299,
+    "date": "2026-04-14",
+    "description": "Mobile recharge",
+    "amount": 100,
+    "category": "Bills & Utilities"
   }
 ]
