@@ -257,5 +257,12 @@
     "description": "Kamesh and kiran's farewell contributions",
     "amount": 400,
     "category": "Other"
+  },
+  {
+    "id": 1776157296652,
+    "date": "2026-04-14",
+    "description": "Lunch",
+    "amount": 25,
+    "category": "Food"
   }
 ]
