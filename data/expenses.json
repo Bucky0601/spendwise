@@ -250,5 +250,12 @@
     "description": "Breakfast",
     "amount": 50,
     "category": "Food"
+  },
+  {
+    "id": 1776157273517,
+    "date": "2026-04-14",
+    "description": "Kamesh and kiran's farewell contributions",
+    "amount": 400,
+    "category": "Other"
   }
 ]
