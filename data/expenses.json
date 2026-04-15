@@ -271,5 +271,12 @@
     "description": "Mobile recharge",
     "amount": 100,
     "category": "Bills & Utilities"
+  },
+  {
+    "id": 1776224725201,
+    "date": "2026-04-15",
+    "description": "Breakfast",
+    "amount": 75,
+    "category": "Food"
   }
 ]
