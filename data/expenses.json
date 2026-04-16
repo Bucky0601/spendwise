@@ -285,5 +285,12 @@
     "description": "Vegetable + fruits",
     "amount": 223,
     "category": "Food"
+  },
+  {
+    "id": 1776352409798,
+    "date": "2026-04-16",
+    "description": "Sanfe tan remover (cred)",
+    "amount": 149,
+    "category": "Shopping"
   }
 ]
