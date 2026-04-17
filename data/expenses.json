@@ -292,5 +292,12 @@
     "description": "Sanfe tan remover (cred)",
     "amount": 149,
     "category": "Shopping"
+  },
+  {
+    "id": 1776437630354,
+    "date": "2026-04-17",
+    "description": "Supplements + seeds (amazon)",
+    "amount": 3986,
+    "category": "Health"
   }
 ]
