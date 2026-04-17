@@ -299,5 +299,12 @@
     "description": "Supplements + seeds (amazon)",
     "amount": 3986,
     "category": "Health"
+  },
+  {
+    "id": 1776439586147,
+    "date": "2026-04-16",
+    "description": "Blr to NGP (flipkart)",
+    "amount": 4394,
+    "category": "Transport"
   }
 ]
