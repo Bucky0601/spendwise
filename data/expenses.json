@@ -313,5 +313,12 @@
     "description": "Petrol",
     "amount": 256.24,
     "category": "Transport"
+  },
+  {
+    "id": 1776496120038,
+    "date": "2026-04-18",
+    "description": "Fruits",
+    "amount": 131,
+    "category": "Food"
   }
 ]
