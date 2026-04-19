@@ -348,5 +348,12 @@
     "description": "Shampoo (cred)",
     "amount": 169,
     "category": "Shopping"
+  },
+  {
+    "id": 1776590954048,
+    "date": "2026-04-19",
+    "description": "Shirt (cred)",
+    "amount": 599,
+    "category": "Shopping"
   }
 ]
