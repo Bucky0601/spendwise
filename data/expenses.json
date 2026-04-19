@@ -327,5 +327,12 @@
     "description": "Cricket fee",
     "amount": 667,
     "category": "Other"
+  },
+  {
+    "id": 1776588340059,
+    "date": "2026-04-19",
+    "description": "Cloths (Dmart)",
+    "amount": 3141.25,
+    "category": "Shopping"
   }
 ]
