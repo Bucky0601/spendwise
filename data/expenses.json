@@ -341,5 +341,12 @@
     "description": "Data Recharge(punno)",
     "amount": 219,
     "category": "Bills & Utilities"
+  },
+  {
+    "id": 1776590915033,
+    "date": "2026-04-19",
+    "description": "Shampoo (cred)",
+    "amount": 169,
+    "category": "Shopping"
   }
 ]
