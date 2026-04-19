@@ -334,5 +334,12 @@
     "description": "Cloths (Dmart)",
     "amount": 3141.25,
     "category": "Shopping"
+  },
+  {
+    "id": 1776588380193,
+    "date": "2026-04-19",
+    "description": "Data Recharge(punno)",
+    "amount": 219,
+    "category": "Bills & Utilities"
   }
 ]
