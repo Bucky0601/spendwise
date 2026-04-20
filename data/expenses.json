@@ -369,5 +369,12 @@
     "description": "Anka's farewell",
     "amount": 800,
     "category": "Other"
+  },
+  {
+    "id": 1776663790439,
+    "date": "2026-04-20",
+    "description": "Credit card bill (sbi cashback)",
+    "amount": 14267,
+    "category": "Bills & Utilities"
   }
 ]
