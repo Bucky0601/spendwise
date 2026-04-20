@@ -376,5 +376,12 @@
     "description": "Credit card bill (sbi cashback)",
     "amount": 14267,
     "category": "Bills & Utilities"
+  },
+  {
+    "id": 1776663818741,
+    "date": "2026-04-20",
+    "description": "Stock fund added in zerodha",
+    "amount": 5000,
+    "category": "Other"
   }
 ]
