@@ -383,5 +383,12 @@
     "description": "Stock fund added in zerodha",
     "amount": 5000,
     "category": "Other"
+  },
+  {
+    "id": 1776672549528,
+    "date": "2026-04-20",
+    "description": "Lunch",
+    "amount": 25,
+    "category": "Food"
   }
 ]
