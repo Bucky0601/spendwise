@@ -390,5 +390,12 @@
     "description": "Lunch",
     "amount": 25,
     "category": "Food"
+  },
+  {
+    "id": 1776672936529,
+    "date": "2026-04-20",
+    "description": "Jio home wifi",
+    "amount": 706.82,
+    "category": "Bills & Utilities"
   }
 ]
