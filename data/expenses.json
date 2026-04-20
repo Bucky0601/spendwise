@@ -362,5 +362,12 @@
     "description": "Breakfast",
     "amount": 45,
     "category": "Food"
+  },
+  {
+    "id": 1776663713033,
+    "date": "2026-04-20",
+    "description": "Anka's farewell",
+    "amount": 800,
+    "category": "Other"
   }
 ]
