@@ -397,5 +397,12 @@
     "description": "Jio home wifi",
     "amount": 706.82,
     "category": "Bills & Utilities"
+  },
+  {
+    "id": 1776750180799,
+    "date": "2026-04-21",
+    "description": "Badminton shuttle (Ashwani)",
+    "amount": 603,
+    "category": "Shopping"
   }
 ]
