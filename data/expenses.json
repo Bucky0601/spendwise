@@ -404,5 +404,12 @@
     "description": "Badminton shuttle (Ashwani)",
     "amount": 603,
     "category": "Shopping"
+  },
+  {
+    "id": 1776858283816,
+    "date": "2026-04-22",
+    "description": "Grocery (Amazon)",
+    "amount": 438,
+    "category": "Food"
   }
 ]
