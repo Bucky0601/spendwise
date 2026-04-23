@@ -432,5 +432,12 @@
     "description": "Hostal",
     "amount": 3000,
     "category": "Rent"
+  },
+  {
+    "id": 1776963192496,
+    "date": "2026-04-20",
+    "description": "Food",
+    "amount": 130,
+    "category": "Food"
   }
 ]
