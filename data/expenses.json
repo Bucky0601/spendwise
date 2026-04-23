@@ -446,5 +446,12 @@
     "description": "Food",
     "amount": 130,
     "category": "Food"
+  },
+  {
+    "id": 1776963246367,
+    "date": "2026-04-22",
+    "description": "Food",
+    "amount": 130,
+    "category": "Food"
   }
 ]
