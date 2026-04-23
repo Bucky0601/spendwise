@@ -418,5 +418,12 @@
     "description": "Lunch",
     "amount": 153,
     "category": "Food"
+  },
+  {
+    "id": 1776963105185,
+    "date": "2026-04-20",
+    "description": "Auto",
+    "amount": 190,
+    "category": "Transport"
   }
 ]
