@@ -488,5 +488,12 @@
     "description": "Biryani (ownly)",
     "amount": 283.25,
     "category": "Food"
+  },
+  {
+    "id": 1777052461373,
+    "date": "2026-04-24",
+    "description": "Aiprit to blr home",
+    "amount": 900,
+    "category": "Transport"
   }
 ]
