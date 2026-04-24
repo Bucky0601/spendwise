@@ -467,5 +467,12 @@
     "description": "Grocery (Amazon)",
     "amount": 121,
     "category": "Grocery"
+  },
+  {
+    "id": 1777014119380,
+    "date": "2026-04-24",
+    "description": "Kadhi chaval (eat club)",
+    "amount": 161,
+    "category": "Food"
   }
 ]
