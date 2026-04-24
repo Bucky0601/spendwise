@@ -474,5 +474,12 @@
     "description": "Kadhi chaval (eat club)",
     "amount": 161,
     "category": "Food"
+  },
+  {
+    "id": 1777014243018,
+    "date": "2026-04-24",
+    "description": "Badminton booking (Rams)",
+    "amount": 71.5,
+    "category": "Other"
   }
 ]
