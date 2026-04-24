@@ -481,5 +481,12 @@
     "description": "Badminton booking (Rams)",
     "amount": 71.5,
     "category": "Other"
+  },
+  {
+    "id": 1777039588122,
+    "date": "2026-04-24",
+    "description": "Biryani (ownly)",
+    "amount": 283.25,
+    "category": "Food"
   }
 ]
