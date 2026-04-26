@@ -502,5 +502,12 @@
     "description": "Vegetable + grocery",
     "amount": 754,
     "category": "Grocery"
+  },
+  {
+    "id": 1777210631228,
+    "date": "2026-04-26",
+    "description": "Amex credit bill",
+    "amount": 20508,
+    "category": "Bills & Utilities"
   }
 ]
