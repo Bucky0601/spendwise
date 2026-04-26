@@ -509,5 +509,12 @@
     "description": "Amex credit bill",
     "amount": 20508,
     "category": "Bills & Utilities"
+  },
+  {
+    "id": 1777210673223,
+    "date": "2026-04-26",
+    "description": "Icici amazon bill payment",
+    "amount": 13193.22,
+    "category": "Bills & Utilities"
   }
 ]
