@@ -495,5 +495,12 @@
     "description": "Aiprit to blr home",
     "amount": 900,
     "category": "Transport"
+  },
+  {
+    "id": 1777205486293,
+    "date": "2026-04-26",
+    "description": "Vegetable + grocery",
+    "amount": 754,
+    "category": "Grocery"
   }
 ]
