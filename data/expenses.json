@@ -523,5 +523,12 @@
     "description": "Fruits",
     "amount": 209,
     "category": "Food"
+  },
+  {
+    "id": 1777257464600,
+    "date": "2026-04-24",
+    "description": "food",
+    "amount": 230,
+    "category": "Food"
   }
 ]
