@@ -537,5 +537,12 @@
     "description": "food",
     "amount": 230,
     "category": "Food"
+  },
+  {
+    "id": 1777257491291,
+    "date": "2026-04-24",
+    "description": "Auto",
+    "amount": 117,
+    "category": "Transport"
   }
 ]
