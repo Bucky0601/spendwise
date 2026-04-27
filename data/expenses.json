@@ -516,5 +516,12 @@
     "description": "Icici amazon bill payment",
     "amount": 13193.22,
     "category": "Bills & Utilities"
+  },
+  {
+    "id": 1777257388305,
+    "date": "2026-04-27",
+    "description": "Fruits",
+    "amount": 209,
+    "category": "Food"
   }
 ]
