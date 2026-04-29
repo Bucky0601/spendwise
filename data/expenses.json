@@ -558,5 +558,12 @@
     "description": "Breakfast",
     "amount": 50,
     "category": "Food"
+  },
+  {
+    "id": 1777477515931,
+    "date": "2026-04-29",
+    "description": "Cricket fee",
+    "amount": 780,
+    "category": "Other"
   }
 ]
