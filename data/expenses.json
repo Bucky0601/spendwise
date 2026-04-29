@@ -579,5 +579,12 @@
     "description": "Hdfc credit card bill",
     "amount": 19806,
     "category": "Bills & Utilities"
+  },
+  {
+    "id": 1777477819763,
+    "date": "2026-04-29",
+    "description": "Hdfc credit card",
+    "amount": 2485,
+    "category": "Bills & Utilities"
   }
 ]
