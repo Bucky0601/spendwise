@@ -572,5 +572,12 @@
     "description": "Gas cylinder",
     "amount": 915.5,
     "category": "Bills & Utilities"
+  },
+  {
+    "id": 1777477759095,
+    "date": "2026-04-29",
+    "description": "Hdfc credit card bill",
+    "amount": 19806,
+    "category": "Bills & Utilities"
   }
 ]
