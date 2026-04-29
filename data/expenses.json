@@ -565,5 +565,12 @@
     "description": "Cricket fee",
     "amount": 780,
     "category": "Other"
+  },
+  {
+    "id": 1777477715144,
+    "date": "2026-04-27",
+    "description": "Gas cylinder",
+    "amount": 915.5,
+    "category": "Bills & Utilities"
   }
 ]
