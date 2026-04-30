@@ -586,5 +586,12 @@
     "description": "Hdfc credit card",
     "amount": 2485,
     "category": "Bills & Utilities"
+  },
+  {
+    "id": 1777529233393,
+    "date": "2026-04-30",
+    "description": "Grocery (insta mart)",
+    "amount": 235,
+    "category": "Food"
   }
 ]
