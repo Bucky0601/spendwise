@@ -628,5 +628,12 @@
     "description": "Petrol",
     "amount": 320,
     "category": "Transport"
+  },
+  {
+    "id": 1777649396462,
+    "date": "2026-05-01",
+    "description": "Lunch (cricket)",
+    "amount": 275,
+    "category": "Food"
   }
 ]
