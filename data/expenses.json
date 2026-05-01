@@ -607,5 +607,12 @@
     "description": "Idfc credit card bill",
     "amount": 89,
     "category": "Bills & Utilities"
+  },
+  {
+    "id": 1777606260334,
+    "date": "2026-05-01",
+    "description": "Rent for April 2026",
+    "amount": 31534.5,
+    "category": "Rent"
   }
 ]
