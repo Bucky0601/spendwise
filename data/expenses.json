@@ -621,5 +621,12 @@
     "description": "Bbmp cleaner",
     "amount": 100,
     "category": "Bills & Utilities"
+  },
+  {
+    "id": 1777609451636,
+    "date": "2026-05-01",
+    "description": "Petrol",
+    "amount": 320,
+    "category": "Transport"
   }
 ]
