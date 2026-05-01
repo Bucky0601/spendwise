@@ -600,5 +600,12 @@
     "description": "Scapia credit card bill",
     "amount": 4820.97,
     "category": "Transport"
+  },
+  {
+    "id": 1777604098253,
+    "date": "2026-04-30",
+    "description": "Idfc credit card bill",
+    "amount": 89,
+    "category": "Bills & Utilities"
   }
 ]
