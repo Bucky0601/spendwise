@@ -593,5 +593,12 @@
     "description": "Grocery (insta mart)",
     "amount": 235,
     "category": "Food"
+  },
+  {
+    "id": 1777604020540,
+    "date": "2026-05-01",
+    "description": "Scapia credit card bill",
+    "amount": 4820.97,
+    "category": "Transport"
   }
 ]
