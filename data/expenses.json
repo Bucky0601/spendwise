@@ -663,5 +663,12 @@
     "description": "Broadband bill",
     "amount": 1709.82,
     "category": "Bills & Utilities"
+  },
+  {
+    "id": 1777742372908,
+    "date": "2026-05-02",
+    "description": "Shoes (amazon)",
+    "amount": 4280,
+    "category": "Food"
   }
 ]
