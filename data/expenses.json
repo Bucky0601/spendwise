@@ -635,5 +635,12 @@
     "description": "Lunch (cricket)",
     "amount": 275,
     "category": "Food"
+  },
+  {
+    "id": 1777691419202,
+    "date": "2026-05-01",
+    "description": "Vegetable + fruits",
+    "amount": 284,
+    "category": "Food"
   }
 ]
