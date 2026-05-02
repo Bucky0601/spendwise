@@ -656,5 +656,12 @@
     "description": "Cricket fee",
     "amount": 470,
     "category": "Other"
+  },
+  {
+    "id": 1777723684867,
+    "date": "2026-05-02",
+    "description": "Broadband bill",
+    "amount": 1709.82,
+    "category": "Bills & Utilities"
   }
 ]
