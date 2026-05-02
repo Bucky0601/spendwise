@@ -649,5 +649,12 @@
     "description": "Fruits",
     "amount": 305,
     "category": "Food"
+  },
+  {
+    "id": 1777723232523,
+    "date": "2026-05-02",
+    "description": "Cricket fee",
+    "amount": 470,
+    "category": "Other"
   }
 ]
