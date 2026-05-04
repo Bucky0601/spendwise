@@ -698,5 +698,12 @@
     "description": "Cricket kit bag",
     "amount": 1506,
     "category": "Shopping"
+  },
+  {
+    "id": 1777905604879,
+    "date": "2026-05-04",
+    "description": "Pani puri and eggs",
+    "amount": 291,
+    "category": "Grocery"
   }
 ]
