@@ -691,5 +691,12 @@
     "description": "Batting Pads cover",
     "amount": 214,
     "category": "Shopping"
+  },
+  {
+    "id": 1777905531287,
+    "date": "2026-05-04",
+    "description": "Cricket kit bag",
+    "amount": 1506,
+    "category": "Shopping"
   }
 ]
