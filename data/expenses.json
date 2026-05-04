@@ -677,5 +677,12 @@
     "description": "Cricket equipment",
     "amount": 7500,
     "category": "Other"
+  },
+  {
+    "id": 1777905293559,
+    "date": "2026-05-04",
+    "description": "Dmart grocery",
+    "amount": 2037.36,
+    "category": "Grocery"
   }
 ]
