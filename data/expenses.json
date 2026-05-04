@@ -670,5 +670,12 @@
     "description": "Shoes (amazon)",
     "amount": 4280,
     "category": "Food"
+  },
+  {
+    "id": 1777884176279,
+    "date": "2026-05-04",
+    "description": "Cricket equipment",
+    "amount": 7500,
+    "category": "Other"
   }
 ]
