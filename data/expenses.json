@@ -705,5 +705,12 @@
     "description": "Pani puri and eggs",
     "amount": 291,
     "category": "Grocery"
+  },
+  {
+    "id": 1777905636237,
+    "date": "2026-05-04",
+    "description": "Amazon grocery",
+    "amount": 106,
+    "category": "Grocery"
   }
 ]
