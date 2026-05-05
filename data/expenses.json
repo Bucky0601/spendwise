@@ -726,5 +726,12 @@
     "description": "Lunch",
     "amount": 25,
     "category": "Food"
+  },
+  {
+    "id": 1777992034965,
+    "date": "2026-05-05",
+    "description": "Crixket kit bag (decathlon)",
+    "amount": 1999,
+    "category": "Shopping"
   }
 ]
