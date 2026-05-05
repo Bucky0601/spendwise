@@ -719,5 +719,12 @@
     "description": "Breakfast",
     "amount": 40,
     "category": "Food"
+  },
+  {
+    "id": 1777991986467,
+    "date": "2026-05-05",
+    "description": "Lunch",
+    "amount": 25,
+    "category": "Food"
   }
 ]
