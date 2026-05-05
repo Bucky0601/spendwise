@@ -712,5 +712,12 @@
     "description": "Amazon grocery",
     "amount": 106,
     "category": "Grocery"
+  },
+  {
+    "id": 1777953992154,
+    "date": "2026-05-05",
+    "description": "Breakfast",
+    "amount": 40,
+    "category": "Food"
   }
 ]
