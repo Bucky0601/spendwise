@@ -775,5 +775,12 @@
     "description": "Lunch",
     "amount": 25,
     "category": "Food"
+  },
+  {
+    "id": 1778056572221,
+    "date": "2026-05-06",
+    "description": "Electricity bill",
+    "amount": 2167,
+    "category": "Bills & Utilities"
   }
 ]
