@@ -733,5 +733,12 @@
     "description": "Crixket kit bag (decathlon)",
     "amount": 1999,
     "category": "Shopping"
+  },
+  {
+    "id": 1778035743830,
+    "date": "2026-05-05",
+    "description": "Vegetable + fruits",
+    "amount": 341,
+    "category": "Food"
   }
 ]
