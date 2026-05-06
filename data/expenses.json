@@ -761,5 +761,12 @@
     "description": "Vegetable + fruits",
     "amount": 241,
     "category": "Food"
+  },
+  {
+    "id": 1778039558223,
+    "date": "2026-05-06",
+    "description": "Breakfast",
+    "amount": 40,
+    "category": "Food"
   }
 ]
