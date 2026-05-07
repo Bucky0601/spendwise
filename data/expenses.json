@@ -803,5 +803,12 @@
     "description": "Tshirt print + shoes",
     "amount": 795,
     "category": "Shopping"
+  },
+  {
+    "id": 1778171555219,
+    "date": "2026-05-07",
+    "description": "Mochi (bag repairs)",
+    "amount": 150,
+    "category": "Bills & Utilities"
   }
 ]
