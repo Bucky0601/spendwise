@@ -782,5 +782,12 @@
     "description": "Electricity bill",
     "amount": 2167,
     "category": "Bills & Utilities"
+  },
+  {
+    "id": 1778122474551,
+    "date": "2026-05-07",
+    "description": "Fruits",
+    "amount": 90,
+    "category": "Food"
   }
 ]
