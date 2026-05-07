@@ -796,5 +796,12 @@
     "description": "Petrol",
     "amount": 207.9,
     "category": "Transport"
+  },
+  {
+    "id": 1778161911801,
+    "date": "2026-05-07",
+    "description": "Tshirt print + shoes",
+    "amount": 795,
+    "category": "Shopping"
   }
 ]
