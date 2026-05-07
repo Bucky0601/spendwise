@@ -789,5 +789,12 @@
     "description": "Fruits",
     "amount": 90,
     "category": "Food"
+  },
+  {
+    "id": 1778151334622,
+    "date": "2026-05-07",
+    "description": "Petrol",
+    "amount": 207.9,
+    "category": "Transport"
   }
 ]
