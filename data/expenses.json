@@ -810,5 +810,12 @@
     "description": "Mochi (bag repairs)",
     "amount": 150,
     "category": "Bills & Utilities"
+  },
+  {
+    "id": 1778219467908,
+    "date": "2026-05-08",
+    "description": "Cricket shoes (amazon)",
+    "amount": 2019.69,
+    "category": "Shopping"
   }
 ]
