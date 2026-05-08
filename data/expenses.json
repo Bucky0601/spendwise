@@ -817,5 +817,12 @@
     "description": "Cricket shoes (amazon)",
     "amount": 2019.69,
     "category": "Shopping"
+  },
+  {
+    "id": 1778232031336,
+    "date": "2026-05-08",
+    "description": "Cricket match fee",
+    "amount": 760,
+    "category": "Other"
   }
 ]
