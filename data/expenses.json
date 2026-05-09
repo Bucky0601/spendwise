@@ -824,5 +824,12 @@
     "description": "Cricket match fee",
     "amount": 760,
     "category": "Other"
+  },
+  {
+    "id": 1778295979933,
+    "date": "2026-05-09",
+    "description": "Vegetable + fruits",
+    "amount": 170,
+    "category": "Food"
   }
 ]
