@@ -171,8 +171,7 @@
   </div>
 
   <div class="bottom">
-    <div class="pane expenses" style="flex:2"><div class="pane-head"><h2><span class="material-symbols-rounded">list</span> Expenses</h2><span class="pane-badge" id="eBadge">0</span></div><div class="pane-body" id="eBody"></div></div>
-    <div class="pane"><div class="pane-head"><h2><span class="material-symbols-rounded">pie_chart</span> Categories</h2><span class="pane-badge" id="cBadge">0</span></div><div class="pane-body" id="cBody"></div></div>
+    <div class="pane expenses" style="flex:1"><div class="pane-head"><h2><span class="material-symbols-rounded">list</span> Expenses</h2><span class="pane-badge" id="eBadge">0</span></div><div class="pane-body" id="eBody"></div></div>
   </div>
 </div>
 
@@ -379,7 +378,7 @@ function closeModal(){
     $('total').textContent='₹'+fmt(total);
     $('count').textContent=filtered.length;
     $('eBadge').textContent=filtered.length;
-    $('cBadge').textContent=sorted.length;
+    var cBadge = $('cBadge'); if (cBadge) cBadge.textContent = sorted.length;
 
     if(filtered.length){
       var days=new Set(filtered.map(function(e){return e.date;})).size;
