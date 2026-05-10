@@ -161,6 +161,7 @@
     <button class="btn add-btn" onclick="openModal()"><span class="material-symbols-rounded">add_circle</span> Track Expense</button>
     <div style="display:flex;gap:8px">
       <button class="btn detail-btn" onclick="openDetail()"><span class="material-symbols-rounded">grid_view</span> Detail View</button>
+        <button class="btn detail-btn" onclick="openCategories()"><span class="material-symbols-rounded">pie_chart</span> Categories</button>
       <button class="btn export-btn" onclick="exportCSV()"><span class="material-symbols-rounded">download</span> Export</button>
     </div>
   </div>
@@ -172,8 +173,7 @@
 
   <div class="bottom">
     <div class="pane expenses" style="flex:2"><div class="pane-head"><h2><span class="material-symbols-rounded">list</span> Expenses</h2><span class="pane-badge" id="eBadge">0</span></div><div class="pane-body" id="eBody"></div></div>
-    <div class="pane categories" style="flex:1"><div class="pane-head"><h2><span class="material-symbols-rounded">pie_chart</span> Categories</h2><span class="pane-badge" id="cBadge">0</span></div><div class="pane-body" id="cBody"></div></div>
-  </div>
+      </div>
 </div>
 
 <div class="overlay hidden" id="mOvl" onclick="if(event.target===this)closeModal()">
