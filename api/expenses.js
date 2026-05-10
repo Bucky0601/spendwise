@@ -87,6 +87,21 @@ module.exports = async function handler(req, res) {
       return res.json({ ok: true, id: entry.id });
     }
 
+    if (req.method === 'PUT') {
+      const id = parseInt(req.query.id);
+      if (!id) return res.status(400).json({ error: 'Missing id' });
+      const { date, description, amount, category } = req.body;
+      if (!date || !description || !amount || !category) {
+        return res.status(400).json({ error: 'All fields required' });
+      }
+      const { expenses: current, sha } = await getExpenses();
+      const arr = current || [];
+      const idx = arr.findIndex(e => e.id === id);
+      if (idx === -1) return res.status(404).json({ error: 'Not found' });
+      arr[idx] = { id, date, description, amount: parseFloat(amount), category };
+      await saveExpenses(arr, sha);
+      return res.json({ ok: true });
+    }
     if (req.method === 'DELETE') {
       const id = parseInt(req.query.id);
       const { expenses: current, sha } = await getExpenses();
