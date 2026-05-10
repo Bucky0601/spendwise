@@ -222,6 +222,10 @@
     var r = await fetch(apiUrl(url), { method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(body) });
     return r.json();
   }
+  async function apiPut(url, body){
+    var r = await fetch(apiUrl(url), { method:'PUT', headers:{'Content-Type':'application/json'}, body:JSON.stringify(body) });
+    return r.json();
+  }
   async function apiDelete(url){
     await fetch(apiUrl(url), { method:'DELETE' });
   }
