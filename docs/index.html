@@ -423,6 +423,8 @@ function closeModal(){
 
   // ===== DETAIL =====
   function openDetail(){
+  // existing detail view
+
     $('dOvl').classList.remove('hidden');
     var filtered=allExpenses.filter(function(e){return e.date.substring(0,7)===curM;}).sort(function(a,b){return b.date.localeCompare(a.date);});
     var total=filtered.reduce(function(s,e){return s+e.amount;},0);
@@ -439,6 +441,24 @@ function closeModal(){
     h+='</tbody></table>'; $('dBody').innerHTML=h;
   }
   function closeDetail(){ $('dOvl').classList.add('hidden'); }
+
+// ===== CATEGORIES MODAL =====
+function openCategories(){
+  $('cOvl').classList.remove('hidden');
+  var filtered = allExpenses.filter(function(e){return e.date.substring(0,7)===curM;});
+  var total = filtered.reduce(function(s,e){return s+e.amount;},0);
+  var cats = {};
+  filtered.forEach(function(e){cats[e.category]=(cats[e.category]||0)+e.amount;});
+  var sorted = Object.entries(cats).sort(function(a,b){return b[1]-a[1];});
+  var body = !sorted.length?'<div class="empty">No data for this month.</div>':
+    sorted.map(function(item){
+      var name=item[0], amt=item[1], pct=total>0?(amt/total*100).toFixed(1):0;
+      var c=CATS[name]||{color:'#94a3b8'};
+      return '<div class="cat-item"><span class="cat-dot" style="background:'+c.color+'"></span><span class="cat-name">'+name+'</span><span class="cat-amount">₹'+fmt(amt)+'</span><span class="cat-pct">'+pct+'%</span></div>';
+    }).join('');
+  $('cModalBody').innerHTML = body;
+}
+function closeCategories(){ $('cOvl').classList.add('hidden'); }
 
   // ===== EXPORT =====
   function exportCSV(){
