@@ -322,7 +322,7 @@ function closeModal(){
     if(!date||!desc||isNaN(amt)||amt<=0){ toast('Fill all fields correctly.','err'); return; }
     try {
       if (editId) {
-        await apiPut('/api/expenses/'+editId, {date:date, description:desc, amount:amt, category:cat});
+        await apiPut('/api/expenses?id='+editId, {date:date, description:desc, amount:amt, category:cat});
         toast('Expense updated!','ok');
       } else {
         await apiPost('/api/expenses', {date:date, description:desc, amount:amt, category:cat});

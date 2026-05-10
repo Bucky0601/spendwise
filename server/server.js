@@ -3,7 +3,7 @@ const cors = require('cors');
 const fs = require('fs');
 
 const app = express();
-app.use(cors({ origin: '*' }));
+app.use(cors({ origin: '*', methods: ['GET','POST','PUT','DELETE','OPTIONS'] }));
 app.use(express.json());
 
 // Root route
@@ -38,8 +38,8 @@ app.post('/api/expenses', (req, res) => {
   res.json({ ok: true, id: entry.id });
 });
 
-app.put('/api/expenses/:id', (req, res) => {
-  const id = parseInt(req.params.id);
+app.put('/api/expenses/:id?', (req, res) => {
+  const id = parseInt(req.params.id || req.query.id);
   const { date, description, amount, category } = req.body;
   if (!date || !description || !amount || !category) {
     return res.status(400).json({ error: 'All fields required' });
