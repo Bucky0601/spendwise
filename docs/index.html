@@ -405,7 +405,7 @@ function closeModal(){
     }
 
     var cBody=$('cBody'); // may be null if pane removed
-    cBody.innerHTML=!sorted.length?'<div class="empty">No data for this month.</div>':
+    if (cBody) {cBody.innerHTML=!sorted.length?'<div class="empty">No data for this month.</div>':
       sorted.map(function(item){
         var name=item[0],amt=item[1],pct=total>0?(amt/total*100).toFixed(1):0;
         var c=CATS[name]||{color:'#94a3b8'};
