@@ -39,7 +39,8 @@ app.post('/api/expenses', (req, res) => {
 });
 
 app.delete('/api/expenses/:id?', (req, res) => {
-  expenses = expenses.filter(e => e.id !== parseInt(req.params.id));
+  const id = parseInt(req.params.id || req.query.id);
+  expenses = expenses.filter(e => e.id !== id);
   writeDB(expenses);
   res.json({ ok: true });
 });

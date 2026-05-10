@@ -302,9 +302,9 @@
 
   async function del(id){
     try {
-      await apiDelete('/api/expenses/'+id);
+      await apiDelete('/api/expenses?id='+id);
       await loadAll();
-      toast('Deleted.','err');
+      toast('Deleted.','ok');
     } catch(e){ toast('Delete failed.','err'); }
   }
 
