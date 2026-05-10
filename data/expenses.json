@@ -82,5 +82,761 @@
     "description": "Break tight",
     "amount": 10,
     "category": "Other"
+  },
+  {
+    "id": 1775384888789,
+    "date": "2026-04-05",
+    "description": "Track pant (amazon)",
+    "amount": 1505,
+    "category": "Shopping"
+  },
+  {
+    "id": 1775489666717,
+    "date": "2026-04-06",
+    "description": "Parking (lenskart)",
+    "amount": 40,
+    "category": "Other"
+  },
+  {
+    "id": 1775489817464,
+    "date": "2026-04-06",
+    "description": "Mr. DIY (tyre puncture repair kit)",
+    "amount": 170,
+    "category": "Bills & Utilities"
+  },
+  {
+    "id": 1775489845112,
+    "date": "2026-04-06",
+    "description": "Mr. DIY (Cap)",
+    "amount": 270,
+    "category": "Shopping"
+  },
+  {
+    "id": 1775489947264,
+    "date": "2026-04-06",
+    "description": "Mr. DIY (100w cable)",
+    "amount": 300,
+    "category": "Shopping"
+  },
+  {
+    "id": 1775550982890,
+    "date": "2026-04-07",
+    "description": "Breakfast + lunch",
+    "amount": 78,
+    "category": "Food"
+  },
+  {
+    "id": 1775621792617,
+    "date": "2026-04-08",
+    "description": "Breakfast",
+    "amount": 65,
+    "category": "Food"
+  },
+  {
+    "id": 1775622728668,
+    "date": "2026-04-06",
+    "description": "Vegetable + fruits",
+    "amount": 272,
+    "category": "Food"
+  },
+  {
+    "id": 1775664140520,
+    "date": "2026-04-08",
+    "description": "Fielding gloves + resistance bands (swiggy)",
+    "amount": 736,
+    "category": "Health"
+  },
+  {
+    "id": 1775664171644,
+    "date": "2026-04-08",
+    "description": "Milk + curd",
+    "amount": 156,
+    "category": "Grocery"
+  },
+  {
+    "id": 1775751999774,
+    "date": "2026-04-09",
+    "description": "Electricity bill",
+    "amount": 493,
+    "category": "Bills & Utilities"
+  },
+  {
+    "id": 1775814031062,
+    "date": "2026-04-10",
+    "description": "Petrol filling",
+    "amount": 309.91,
+    "category": "Transport"
+  },
+  {
+    "id": 1775814053355,
+    "date": "2026-04-10",
+    "description": "Cricket nets share",
+    "amount": 38,
+    "category": "Health"
+  },
+  {
+    "id": 1775814083434,
+    "date": "2026-04-10",
+    "description": "Mop for home (amazon)",
+    "amount": 754,
+    "category": "Shopping"
+  },
+  {
+    "id": 1775835294492,
+    "date": "2026-04-10",
+    "description": "Hair cutting",
+    "amount": 200,
+    "category": "Other"
+  },
+  {
+    "id": 1775835316657,
+    "date": "2026-04-10",
+    "description": "Paan",
+    "amount": 52,
+    "category": "Food"
+  },
+  {
+    "id": 1775835368623,
+    "date": "2026-04-10",
+    "description": "Matchbox",
+    "amount": 10,
+    "category": "Food"
+  },
+  {
+    "id": 1775877146230,
+    "date": "2026-04-11",
+    "description": "Vegetable + fruits",
+    "amount": 217,
+    "category": "Food"
+  },
+  {
+    "id": 1775895219428,
+    "date": "2026-04-11",
+    "description": "Banana",
+    "amount": 40,
+    "category": "Food"
+  },
+  {
+    "id": 1775918979612,
+    "date": "2026-04-11",
+    "description": "Grocery (flipkart)",
+    "amount": 260,
+    "category": "Grocery"
+  },
+  {
+    "id": 1775920860166,
+    "date": "2026-04-11",
+    "description": "Electricity bill home (amazon)",
+    "amount": 650,
+    "category": "Bills & Utilities"
+  },
+  {
+    "id": 1775970709552,
+    "date": "2026-04-12",
+    "description": "Grocery (Amazon)",
+    "amount": 415.49,
+    "category": "Grocery"
+  },
+  {
+    "id": 1776091116399,
+    "date": "2026-04-13",
+    "description": "Open router credit ($10) (scapia)",
+    "amount": 1001.97,
+    "category": "Bills & Utilities"
+  },
+  {
+    "id": 1776136058384,
+    "date": "2026-04-14",
+    "description": "Breakfast",
+    "amount": 50,
+    "category": "Food"
+  },
+  {
+    "id": 1776157273517,
+    "date": "2026-04-14",
+    "description": "Kamesh and kiran's farewell contributions",
+    "amount": 400,
+    "category": "Other"
+  },
+  {
+    "id": 1776157296652,
+    "date": "2026-04-14",
+    "description": "Lunch",
+    "amount": 25,
+    "category": "Food"
+  },
+  {
+    "id": 1776186824299,
+    "date": "2026-04-14",
+    "description": "Mobile recharge",
+    "amount": 100,
+    "category": "Bills & Utilities"
+  },
+  {
+    "id": 1776224725201,
+    "date": "2026-04-15",
+    "description": "Breakfast",
+    "amount": 75,
+    "category": "Food"
+  },
+  {
+    "id": 1776347241229,
+    "date": "2026-04-16",
+    "description": "Vegetable + fruits",
+    "amount": 223,
+    "category": "Food"
+  },
+  {
+    "id": 1776352409798,
+    "date": "2026-04-16",
+    "description": "Sanfe tan remover (cred)",
+    "amount": 149,
+    "category": "Shopping"
+  },
+  {
+    "id": 1776437630354,
+    "date": "2026-04-17",
+    "description": "Supplements + seeds (amazon)",
+    "amount": 3986,
+    "category": "Health"
+  },
+  {
+    "id": 1776439586147,
+    "date": "2026-04-16",
+    "description": "Blr to NGP (flipkart)",
+    "amount": 4394,
+    "category": "Transport"
+  },
+  {
+    "id": 1776476224348,
+    "date": "2026-04-18",
+    "description": "Petrol",
+    "amount": 256.24,
+    "category": "Transport"
+  },
+  {
+    "id": 1776496120038,
+    "date": "2026-04-18",
+    "description": "Fruits",
+    "amount": 131,
+    "category": "Food"
+  },
+  {
+    "id": 1776506002164,
+    "date": "2026-04-18",
+    "description": "Cricket fee",
+    "amount": 667,
+    "category": "Other"
+  },
+  {
+    "id": 1776588340059,
+    "date": "2026-04-19",
+    "description": "Cloths (Dmart)",
+    "amount": 3141.25,
+    "category": "Shopping"
+  },
+  {
+    "id": 1776588380193,
+    "date": "2026-04-19",
+    "description": "Data Recharge(punno)",
+    "amount": 219,
+    "category": "Bills & Utilities"
+  },
+  {
+    "id": 1776590915033,
+    "date": "2026-04-19",
+    "description": "Shampoo (cred)",
+    "amount": 169,
+    "category": "Shopping"
+  },
+  {
+    "id": 1776590954048,
+    "date": "2026-04-19",
+    "description": "Shirt (cred)",
+    "amount": 599,
+    "category": "Shopping"
+  },
+  {
+    "id": 1776656421482,
+    "date": "2026-04-20",
+    "description": "Breakfast",
+    "amount": 45,
+    "category": "Food"
+  },
+  {
+    "id": 1776663713033,
+    "date": "2026-04-20",
+    "description": "Anka's farewell",
+    "amount": 800,
+    "category": "Other"
+  },
+  {
+    "id": 1776663790439,
+    "date": "2026-04-20",
+    "description": "Credit card bill (sbi cashback)",
+    "amount": 14267,
+    "category": "Bills & Utilities"
+  },
+  {
+    "id": 1776663818741,
+    "date": "2026-04-20",
+    "description": "Stock fund added in zerodha",
+    "amount": 5000,
+    "category": "Other"
+  },
+  {
+    "id": 1776672549528,
+    "date": "2026-04-20",
+    "description": "Lunch",
+    "amount": 25,
+    "category": "Food"
+  },
+  {
+    "id": 1776672936529,
+    "date": "2026-04-20",
+    "description": "Jio home wifi",
+    "amount": 706.82,
+    "category": "Bills & Utilities"
+  },
+  {
+    "id": 1776750180799,
+    "date": "2026-04-21",
+    "description": "Badminton shuttle (Ashwani)",
+    "amount": 603,
+    "category": "Shopping"
+  },
+  {
+    "id": 1776858283816,
+    "date": "2026-04-22",
+    "description": "Grocery (Amazon)",
+    "amount": 438,
+    "category": "Food"
+  },
+  {
+    "id": 1776858323509,
+    "date": "2026-04-22",
+    "description": "Lunch",
+    "amount": 153,
+    "category": "Food"
+  },
+  {
+    "id": 1776963105185,
+    "date": "2026-04-20",
+    "description": "Auto",
+    "amount": 190,
+    "category": "Transport"
+  },
+  {
+    "id": 1776963163499,
+    "date": "2026-04-20",
+    "description": "Hostal",
+    "amount": 3000,
+    "category": "Rent"
+  },
+  {
+    "id": 1776963192496,
+    "date": "2026-04-20",
+    "description": "Food",
+    "amount": 130,
+    "category": "Food"
+  },
+  {
+    "id": 1776963224940,
+    "date": "2026-04-21",
+    "description": "Food",
+    "amount": 130,
+    "category": "Food"
+  },
+  {
+    "id": 1776963246367,
+    "date": "2026-04-22",
+    "description": "Food",
+    "amount": 130,
+    "category": "Food"
+  },
+  {
+    "id": 1776963263528,
+    "date": "2026-04-23",
+    "description": "Food",
+    "amount": 130,
+    "category": "Food"
+  },
+  {
+    "id": 1777013988775,
+    "date": "2026-04-24",
+    "description": "Grocery (Amazon)",
+    "amount": 121,
+    "category": "Grocery"
+  },
+  {
+    "id": 1777014119380,
+    "date": "2026-04-24",
+    "description": "Kadhi chaval (eat club)",
+    "amount": 161,
+    "category": "Food"
+  },
+  {
+    "id": 1777014243018,
+    "date": "2026-04-24",
+    "description": "Badminton booking (Rams)",
+    "amount": 71.5,
+    "category": "Other"
+  },
+  {
+    "id": 1777039588122,
+    "date": "2026-04-24",
+    "description": "Biryani (ownly)",
+    "amount": 283.25,
+    "category": "Food"
+  },
+  {
+    "id": 1777052461373,
+    "date": "2026-04-24",
+    "description": "Aiprit to blr home",
+    "amount": 900,
+    "category": "Transport"
+  },
+  {
+    "id": 1777205486293,
+    "date": "2026-04-26",
+    "description": "Vegetable + grocery",
+    "amount": 754,
+    "category": "Grocery"
+  },
+  {
+    "id": 1777210631228,
+    "date": "2026-04-26",
+    "description": "Amex credit bill",
+    "amount": 20508,
+    "category": "Bills & Utilities"
+  },
+  {
+    "id": 1777210673223,
+    "date": "2026-04-26",
+    "description": "Icici amazon bill payment",
+    "amount": 13193.22,
+    "category": "Bills & Utilities"
+  },
+  {
+    "id": 1777257388305,
+    "date": "2026-04-27",
+    "description": "Fruits",
+    "amount": 209,
+    "category": "Food"
+  },
+  {
+    "id": 1777257464600,
+    "date": "2026-04-24",
+    "description": "food",
+    "amount": 230,
+    "category": "Food"
+  },
+  {
+    "id": 1777257465996,
+    "date": "2026-04-24",
+    "description": "food",
+    "amount": 230,
+    "category": "Food"
+  },
+  {
+    "id": 1777257491291,
+    "date": "2026-04-24",
+    "description": "Auto",
+    "amount": 117,
+    "category": "Transport"
+  },
+  {
+    "id": 1777368661718,
+    "date": "2026-04-28",
+    "description": "Lunch",
+    "amount": 25,
+    "category": "Food"
+  },
+  {
+    "id": 1777437111804,
+    "date": "2026-04-29",
+    "description": "Breakfast",
+    "amount": 50,
+    "category": "Food"
+  },
+  {
+    "id": 1777477515931,
+    "date": "2026-04-29",
+    "description": "Cricket fee",
+    "amount": 780,
+    "category": "Other"
+  },
+  {
+    "id": 1777477715144,
+    "date": "2026-04-27",
+    "description": "Gas cylinder",
+    "amount": 915.5,
+    "category": "Bills & Utilities"
+  },
+  {
+    "id": 1777477759095,
+    "date": "2026-04-29",
+    "description": "Hdfc credit card bill",
+    "amount": 19806,
+    "category": "Bills & Utilities"
+  },
+  {
+    "id": 1777477819763,
+    "date": "2026-04-29",
+    "description": "Hdfc credit card",
+    "amount": 2485,
+    "category": "Bills & Utilities"
+  },
+  {
+    "id": 1777529233393,
+    "date": "2026-04-30",
+    "description": "Grocery (insta mart)",
+    "amount": 235,
+    "category": "Food"
+  },
+  {
+    "id": 1777604020540,
+    "date": "2026-05-01",
+    "description": "Scapia credit card bill",
+    "amount": 4820.97,
+    "category": "Transport"
+  },
+  {
+    "id": 1777604098253,
+    "date": "2026-04-30",
+    "description": "Idfc credit card bill",
+    "amount": 89,
+    "category": "Bills & Utilities"
+  },
+  {
+    "id": 1777606260334,
+    "date": "2026-05-01",
+    "description": "Rent for April 2026",
+    "amount": 31534.5,
+    "category": "Rent"
+  },
+  {
+    "id": 1777606279054,
+    "date": "2026-05-01",
+    "description": "Bbmp cleaner",
+    "amount": 100,
+    "category": "Bills & Utilities"
+  },
+  {
+    "id": 1777609451636,
+    "date": "2026-05-01",
+    "description": "Petrol",
+    "amount": 320,
+    "category": "Transport"
+  },
+  {
+    "id": 1777649396462,
+    "date": "2026-05-01",
+    "description": "Lunch (cricket)",
+    "amount": 275,
+    "category": "Food"
+  },
+  {
+    "id": 1777691419202,
+    "date": "2026-05-01",
+    "description": "Vegetable + fruits",
+    "amount": 284,
+    "category": "Food"
+  },
+  {
+    "id": 1777691442463,
+    "date": "2026-05-02",
+    "description": "Fruits",
+    "amount": 305,
+    "category": "Food"
+  },
+  {
+    "id": 1777723232523,
+    "date": "2026-05-02",
+    "description": "Cricket fee",
+    "amount": 470,
+    "category": "Other"
+  },
+  {
+    "id": 1777723684867,
+    "date": "2026-05-02",
+    "description": "Broadband bill",
+    "amount": 1709.82,
+    "category": "Bills & Utilities"
+  },
+  {
+    "id": 1777742372908,
+    "date": "2026-05-02",
+    "description": "Shoes (amazon)",
+    "amount": 4280,
+    "category": "Food"
+  },
+  {
+    "id": 1777884176279,
+    "date": "2026-05-04",
+    "description": "Cricket equipment",
+    "amount": 7500,
+    "category": "Other"
+  },
+  {
+    "id": 1777905293559,
+    "date": "2026-05-04",
+    "description": "Dmart grocery",
+    "amount": 2037.36,
+    "category": "Grocery"
+  },
+  {
+    "id": 1777905487803,
+    "date": "2026-05-04",
+    "description": "Batting Pads cover",
+    "amount": 214,
+    "category": "Shopping"
+  },
+  {
+    "id": 1777905531287,
+    "date": "2026-05-04",
+    "description": "Cricket kit bag",
+    "amount": 1506,
+    "category": "Shopping"
+  },
+  {
+    "id": 1777905604879,
+    "date": "2026-05-04",
+    "description": "Pani puri and eggs",
+    "amount": 291,
+    "category": "Grocery"
+  },
+  {
+    "id": 1777905636237,
+    "date": "2026-05-04",
+    "description": "Amazon grocery",
+    "amount": 106,
+    "category": "Grocery"
+  },
+  {
+    "id": 1777953992154,
+    "date": "2026-05-05",
+    "description": "Breakfast",
+    "amount": 40,
+    "category": "Food"
+  },
+  {
+    "id": 1777991986467,
+    "date": "2026-05-05",
+    "description": "Lunch",
+    "amount": 25,
+    "category": "Food"
+  },
+  {
+    "id": 1777992034965,
+    "date": "2026-05-05",
+    "description": "Crixket kit bag (decathlon)",
+    "amount": 1999,
+    "category": "Shopping"
+  },
+  {
+    "id": 1778035743830,
+    "date": "2026-05-05",
+    "description": "Vegetable + fruits",
+    "amount": 341,
+    "category": "Food"
+  },
+  {
+    "id": 1778035745255,
+    "date": "2026-05-05",
+    "description": "Vegetable + fruits",
+    "amount": 341,
+    "category": "Food"
+  },
+  {
+    "id": 1778035767909,
+    "date": "2026-05-06",
+    "description": "Vegetable + fruits",
+    "amount": 241,
+    "category": "Food"
+  },
+  {
+    "id": 1778035768849,
+    "date": "2026-05-06",
+    "description": "Vegetable + fruits",
+    "amount": 241,
+    "category": "Food"
+  },
+  {
+    "id": 1778039558223,
+    "date": "2026-05-06",
+    "description": "Breakfast",
+    "amount": 40,
+    "category": "Food"
+  },
+  {
+    "id": 1778053330780,
+    "date": "2026-05-06",
+    "description": "Lunch",
+    "amount": 25,
+    "category": "Food"
+  },
+  {
+    "id": 1778056572221,
+    "date": "2026-05-06",
+    "description": "Electricity bill",
+    "amount": 2167,
+    "category": "Bills & Utilities"
+  },
+  {
+    "id": 1778122474551,
+    "date": "2026-05-07",
+    "description": "Fruits",
+    "amount": 90,
+    "category": "Food"
+  },
+  {
+    "id": 1778151334622,
+    "date": "2026-05-07",
+    "description": "Petrol",
+    "amount": 207.9,
+    "category": "Transport"
+  },
+  {
+    "id": 1778161911801,
+    "date": "2026-05-07",
+    "description": "Tshirt print + shoes",
+    "amount": 795,
+    "category": "Shopping"
+  },
+  {
+    "id": 1778171555219,
+    "date": "2026-05-07",
+    "description": "Mochi (bag repairs)",
+    "amount": 150,
+    "category": "Bills & Utilities"
+  },
+  {
+    "id": 1778219467908,
+    "date": "2026-05-08",
+    "description": "Cricket shoes (amazon)",
+    "amount": 2019.69,
+    "category": "Shopping"
+  },
+  {
+    "id": 1778232031336,
+    "date": "2026-05-08",
+    "description": "Cricket match fee",
+    "amount": 760,
+    "category": "Other"
+  },
+  {
+    "id": 1778295979933,
+    "date": "2026-05-09",
+    "description": "Vegetable + fruits",
+    "amount": 170,
+    "category": "Food"
+  },
+  {
+    "id": 1778387982677,
+    "date": "2026-05-10",
+    "description": "Vegetable + fruits",
+    "amount": 395,
+    "category": "Food"
   }
 ]
