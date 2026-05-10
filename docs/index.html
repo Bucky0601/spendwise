@@ -188,6 +188,9 @@
   </div>
 </div>
 
+<div class="overlay hidden" id="cOvl" onclick="if(event.target===this)closeCategories()">
+  <div class="modal modal-wide"><div class="modal-title"><span class="material-symbols-rounded">pie_chart</span> Categories<button class="modal-x" onclick="closeCategories()">close</button></div><div id="cModalBody"></div></div>
+</div>
 <div class="overlay hidden" id="dOvl" onclick="if(event.target===this)closeDetail()">
   <div class="modal modal-wide"><div class="modal-title"><span class="material-symbols-rounded">grid_view</span>Monthly Detail<button class="modal-x" onclick="closeDetail()">close</button></div><div id="dBody"></div></div>
 </div>
