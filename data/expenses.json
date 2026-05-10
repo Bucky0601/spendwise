@@ -824,5 +824,12 @@
     "description": "Vegetable + fruits",
     "amount": 395,
     "category": "Food"
+  },
+  {
+    "id": 1778434824408,
+    "date": "2026-05-10",
+    "description": "Cricket helmets + hat (scs sports",
+    "amount": 2428,
+    "category": "Shopping"
   }
 ]
