@@ -347,6 +347,9 @@ function closeModal(){
   // ===== CHARTS =====
   function initCharts(){
     if(typeof Chart==='undefined') return;
+    // Destroy existing charts to avoid canvas reuse error
+    if (dChart) dChart.destroy();
+    if (bChart) bChart.destroy();
     Chart.defaults.color='#7a7a8e'; Chart.defaults.font.family='Inter';
     Chart.defaults.plugins.legend.labels.usePointStyle=true;
     Chart.defaults.plugins.legend.labels.pointStyleWidth=8;
