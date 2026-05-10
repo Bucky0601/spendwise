@@ -289,18 +289,48 @@
   });
 
   // ===== MODAL =====
-  function openModal(){ $('mOvl').classList.remove('hidden'); $('fD').value=new Date().toISOString().split('T')[0]; $('fDesc').value=''; $('fAmt').value=''; $('fDesc').focus(); }
-  function closeModal(){ $('mOvl').classList.add('hidden'); }
-  function toast(m,t){ var tt=$('toast'); tt.textContent=m; tt.className='toast show '+t; setTimeout(function(){tt.className='toast';},2500); }
+  let editId = null;
+function openModal(){
+  editId = null;
+  $('mOvl').classList.remove('hidden');
+  $('mOvl').querySelector('.modal-title').innerHTML = '<span class="material-symbols-rounded">edit_note</span> New Expense <button class="modal-x" onclick="closeModal()">close</button>';
+  $('fD').value = new Date().toISOString().split('T')[0];
+  $('fDesc').value = '';
+  $('fAmt').value = '';
+  $('fCat').value = 'Food';
+  $('fDesc').focus();
+}
+function openEdit(id){
+  const expense = allExpenses.find(e=>e.id===id);
+  if(!expense) return toast('Expense not found','err');
+  editId = id;
+  $('mOvl').classList.remove('hidden');
+  $('mOvl').querySelector('.modal-title').innerHTML = '<span class="material-symbols-rounded">edit_note</span> Edit Expense <button class="modal-x" onclick="closeModal()">close</button>';
+  $('fD').value = expense.date;
+  $('fDesc').value = expense.description;
+  $('fAmt').value = expense.amount;
+  $('fCat').value = expense.category;
+}
+function closeModal(){
+  $('mOvl').classList.add('hidden');
+  editId = null;
+}
+    function toast(m,t){ var tt=$('toast'); tt.textContent=m; tt.className='toast show '+t; setTimeout(function(){tt.className='toast';},2500); }
 
   async function saveExpense(){
     var date=$('fD').value, desc=$('fDesc').value.trim(), amt=parseFloat($('fAmt').value), cat=$('fCat').value;
     if(!date||!desc||isNaN(amt)||amt<=0){ toast('Fill all fields correctly.','err'); return; }
     try {
-      await apiPost('/api/expenses', {date:date, description:desc, amount:amt, category:cat});
-      closeModal(); curM=date.substring(0,7);
+      if (editId) {
+        await apiPut('/api/expenses/'+editId, {date:date, description:desc, amount:amt, category:cat});
+        toast('Expense updated!','ok');
+      } else {
+        await apiPost('/api/expenses', {date:date, description:desc, amount:amt, category:cat});
+        toast('Expense added!','ok');
+      }
+      closeModal();
+      curM = date.substring(0,7);
       await loadAll();
-      toast('Expense added!','ok');
     } catch(e){ toast('Failed to save. Check connection.','err'); }
   }
 
