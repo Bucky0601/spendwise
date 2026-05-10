@@ -3,4 +3,9 @@
     <color name="statusBarColor">#0f0f14</color>
     <color name="navigationBarColor">#0f0f14</color>
     <color name="splashScreenBackground">#0f0f14</color>
+
+    <!-- App Logo Colors -->
+    <color name="ic_launcher_background">#134e5e</color>
+    <color name="logo_green">#34d399</color>
+    <color name="logo_teal">#22d3ee</color>
 </resources>

@@ -3,10 +3,26 @@
     <string name="app_name">SpendWise</string>
     <string name="asset_statements">
         [{
-            \"relation\": [\"delegate_permission/common.handle_all_urls\"],
-            \"target\": {
-                \"namespace\": \"web\",
-                \"site\": \"https://spendwise-drab-seven.vercel.app\"
+            "relation": ["delegate_permission/common.handle_all_urls"],
+            "target": {
+                "namespace": "android_app",
+                "package_name": "com.spendwise.app",
+                "sha256_cert_fingerprints": ["56:F7:97:D1:81:4C:F7:BC:D9:3A:38:73:D3:C8:8D:C5:E7:FD:C9:5A:D3:BB:60:48:BA:7F:36:84:9D:7C:B7:B7"]
+            }
+        },
+        {
+            "relation": ["delegate_permission/common.handle_all_urls"],
+            "target": {
+                "namespace": "android_app",
+                "package_name": "com.spendwise.app.debug",
+                "sha256_cert_fingerprints": ["56:F7:97:D1:81:4C:F7:BC:D9:3A:38:73:D3:C8:8D:C5:E7:FD:C9:5A:D3:BB:60:48:BA:7F:36:84:9D:7C:B7:B7"]
+            }
+        },
+        {
+            "relation": ["delegate_permission/common.handle_all_urls"],
+            "target": {
+                "namespace": "web",
+                "site": "https://spendwise-drab-seven.vercel.app"
             }
         }]
     </string>

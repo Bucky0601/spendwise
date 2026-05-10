@@ -10,7 +10,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@android:style/Theme.Translucent.NoTitleBar"
+        android:theme="@android:style/Theme.DeviceDefault.NoActionBar"
         tools:ignore="GoogleAppIndexingWarning">
 
         <!-- Digital Asset Links for verified TWA (fullscreen, no browser UI) -->
@@ -20,9 +20,10 @@
 
         <!-- Launcher Activity -->
         <activity
-            android:name="com.google.androidbrowserhelper.trusted.LauncherActivity"
-            android:exported="true"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            android:name=".LauncherActivity"
+            android:theme="@android:style/Theme.DeviceDefault.NoActionBar"
+            android:configChanges="orientation|screenSize|smallestScreenSize|screenLayout|keyboard|keyboardHidden|uiMode"
+            android:exported="true">
 
             <meta-data
                 android:name="android.support.customtabs.trusted.DEFAULT_URL"
@@ -30,15 +31,15 @@
 
             <meta-data
                 android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR"
-                android:color="@color/statusBarColor" />
+                android:resource="@color/statusBarColor" />
 
             <meta-data
                 android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR"
-                android:color="@color/navigationBarColor" />
+                android:resource="@color/navigationBarColor" />
 
             <meta-data
                 android:name="android.support.customtabs.trusted.SPLASH_SCREEN_BACKGROUND_COLOR"
-                android:color="@color/splashScreenBackground" />
+                android:resource="@color/splashScreenBackground" />
 
             <meta-data
                 android:name="android.support.customtabs.trusted.SPLASH_SCREEN_FADE_OUT_DURATION"
@@ -50,7 +51,7 @@
 
             <meta-data
                 android:name="android.support.customtabs.trusted.DISPLAY_MODE"
-                android:value="immersive" />
+                android:value="standalone" />
 
             <meta-data
                 android:name="android.support.customtabs.trusted.SITE_SETTINGS"

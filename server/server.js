@@ -38,7 +38,7 @@ app.post('/api/expenses', (req, res) => {
   res.json({ ok: true, id: entry.id });
 });
 
-app.delete('/api/expenses/:id', (req, res) => {
+app.delete('/api/expenses/:id?', (req, res) => {
   expenses = expenses.filter(e => e.id !== parseInt(req.params.id));
   writeDB(expenses);
   res.json({ ok: true });
