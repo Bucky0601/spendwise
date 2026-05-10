@@ -38,6 +38,19 @@ app.post('/api/expenses', (req, res) => {
   res.json({ ok: true, id: entry.id });
 });
 
+app.put('/api/expenses/:id', (req, res) => {
+  const id = parseInt(req.params.id);
+  const { date, description, amount, category } = req.body;
+  if (!date || !description || !amount || !category) {
+    return res.status(400).json({ error: 'All fields required' });
+  }
+  const idx = expenses.findIndex(e => e.id === id);
+  if (idx === -1) return res.status(404).json({ error: 'Not found' });
+  expenses[idx] = { id, date, description, amount: parseFloat(amount), category };
+  writeDB(expenses);
+  return res.json({ ok: true });
+});
+
 app.delete('/api/expenses/:id?', (req, res) => {
   const id = parseInt(req.params.id || req.query.id);
   expenses = expenses.filter(e => e.id !== id);

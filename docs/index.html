@@ -380,7 +380,7 @@
       filtered.map(function(e){
         var c=CATS[e.category]||{color:'#94a3b8',icon:'label_important'};
         var dt=new Date(e.date+'T00:00:00'); var ds=dt.toLocaleDateString('en-IN',{day:'numeric',month:'short'});
-        return '<div class="exp-item"><div class="exp-icon" style="background:'+c.color+'18;color:'+c.color+'"><span class="material-symbols-rounded">'+c.icon+'</span></div><div class="exp-detail"><div class="exp-desc">'+esc(e.description)+'</div><div class="exp-date">'+ds+'</div></div><div class="exp-amount">₹'+fmt(e.amount)+'</div><button class="del-btn" onclick="del('+e.id+')">delete</button></div>';
+        return '<div class="exp-item"><div class="exp-icon" style="background:'+c.color+'18;color:'+c.color+'"><span class="material-symbols-rounded">'+c.icon+'</span></div><div class="exp-detail"><div class="exp-desc">'+esc(e.description)+'</div><div class="exp-date">'+ds+'</div></div><div class="exp-amount">₹'+fmt(e.amount)+'</div><button class="edit-btn" onclick="openEdit('+e.id+')">edit</button> <button class="del-btn" onclick="del('+e.id+')">delete</button></div>';
       }).join('');
   }
 
