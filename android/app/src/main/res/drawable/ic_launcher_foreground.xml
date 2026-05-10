@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Arrow -->
+    <path
+        android:fillColor="#34d399"
+        android:pathData="M30,70 L50,50 L65,65 L85,30 L70,30 M85,30 L85,45"
+        android:strokeWidth="4"
+        android:strokeColor="#34d399"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+    <!-- Main Coin -->
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M45,75 m-15,0 a15,15 0 1,1 30,0 a15,15 0 1,1 -30,0"/>
+    <!-- Rupee Symbol -->
+    <path
+        android:fillColor="#134e5e"
+        android:pathData="M40,68 h10 M40,72 h10 M45,68 c3,0 5,2 5,5 s-2,5 -5,5 L40,82"/>
+</vector>

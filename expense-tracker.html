@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SpendWise — Smart Expense Tracker</title>
+<link rel="manifest" href="/manifest.json">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" rel="stylesheet">
@@ -264,7 +265,6 @@
 <div class="toast" id="toast"></div>
 
 <script>
-  var KEY = "spendwise_data";
   var CATS = {
     Food:{color:"#ff6b6b",icon:"restaurant"},Transport:{color:"#fbbf24",icon:"directions_car"},
     Shopping:{color:"#f472b6",icon:"shopping_bag"},"Bills & Utilities":{color:"#22d3ee",icon:"electric_bolt"},
@@ -274,16 +274,15 @@
   };
   var curM = null, dChart, bChart;
   var $ = function(id){ return document.getElementById(id); };
-  var loadD = function(){ try{ return JSON.parse(localStorage.getItem(KEY)||"[]"); }catch(e){ return []; } };
-  var saveD = function(d){ localStorage.setItem(KEY, JSON.stringify(d)); };
   var mS = function(d){ return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0"); };
   var mL = function(m){ var p=m.split("-"); return new Date(p[0],p[1]-1).toLocaleDateString("en-US",{month:"long",year:"numeric"}); };
   var esc = function(s){ var d=document.createElement("div"); d.textContent=s; return d.innerHTML; };
   var fmt = function(n){ return Number(n).toLocaleString("en-IN"); };
 
-  function buildDD(){
+  async function buildDD(){
     var ms=new Set(), now=new Date(); ms.add(mS(now));
-    loadD().forEach(function(e){ ms.add(e.date.substring(0,7)); });
+    var data = await loadD();
+    data.forEach(function(e){ ms.add(e.date.substring(0,7)); });
     var sorted=[...ms].sort().reverse();
     curM=(curM&&ms.has(curM))?curM:sorted[0];
     var dd=$("mDD");
@@ -304,17 +303,36 @@
 
   function toast(msg,type){ var t=$("toast"); t.textContent=msg; t.className="toast show "+type; setTimeout(function(){t.className="toast";},2500); }
 
-  function save(){
+  async function save(){
     var date=$("fD").value, desc=$("fDesc").value.trim(), amt=parseFloat($("fAmt").value), cat=$("fCat").value;
     if(!date||!desc||isNaN(amt)||amt<=0){ toast("Fill all fields correctly.","err"); return; }
-    var data=loadD(); data.push({id:Date.now(),date:date,description:desc,amount:amt,category:cat});
-    saveD(data); closeModal(); curM=date.substring(0,7); buildDD(); render();
-    toast("Expense added!","ok");
+    try {
+      await fetch('/api/expenses', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({date:date,description:desc,amount:amt,category:cat})
+      });
+      closeModal();
+      curM=date.substring(0,7);
+      buildDD();
+      render();
+      toast("Expense added!","ok");
+    } catch(e) {
+      console.error('Failed to save expense:', e);
+      toast("Failed to add expense.","err");
+    }
   }
 
-  function del(id){
-    saveD(loadD().filter(function(e){return e.id!==id;})); buildDD(); render();
-    toast("Deleted.","err");
+  async function del(id){
+    try {
+      await fetch(`/api/expenses/${id}`, { method: 'DELETE' });
+      buildDD();
+      render();
+      toast("Deleted.","err");
+    } catch(e) {
+      console.error('Failed to delete expense:', e);
+      toast("Failed to delete expense.","err");
+    }
   }
 
   function initCharts(){
@@ -342,9 +360,9 @@
     });
   }
 
-  function render(){
+  async function render(){
     if(!curM) return;
-    var data=loadD();
+    var data=await loadD();
     var filtered=data.filter(function(e){return e.date.substring(0,7)===curM;}).sort(function(a,b){return b.date.localeCompare(a.date);});
     var total=filtered.reduce(function(s,e){return s+e.amount;},0);
     var cats={};
@@ -451,6 +469,17 @@
   buildDD();
   if(typeof Chart!=="undefined"){ initCharts(); } else { console.warn("Chart.js not loaded -- using cached script failed"); }
   render();
+</script>
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/service-worker.js')
+      .then(registration => {
+        console.log('ServiceWorker registration successful with scope: ', registration.scope);
+      })
+      .catch(error => {
+        console.log('ServiceWorker registration failed: ', error);
+      });
+  }
 </script>
 </body>
 </html>
