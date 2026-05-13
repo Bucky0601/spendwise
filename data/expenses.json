@@ -845,5 +845,12 @@
     "description": "Pain relief and socks (amazon)",
     "amount": 661,
     "category": "Shopping"
+  },
+  {
+    "id": 1778656645371,
+    "date": "2026-05-13",
+    "description": "Breakfast",
+    "amount": 50,
+    "category": "Food"
   }
 ]
