@@ -859,5 +859,12 @@
     "description": "Lunch",
     "amount": 25,
     "category": "Food"
+  },
+  {
+    "id": 1778730253777,
+    "date": "2026-05-14",
+    "description": "Vegetable + fruits",
+    "amount": 215,
+    "category": "Food"
   }
 ]
