@@ -866,5 +866,12 @@
     "description": "Vegetable + fruits",
     "amount": 215,
     "category": "Food"
+  },
+  {
+    "id": 1778765575611,
+    "date": "2026-05-14",
+    "description": "Punno Flight booking (flipkart)",
+    "amount": 8255,
+    "category": "Transport"
   }
 ]
