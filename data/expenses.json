@@ -880,5 +880,12 @@
     "description": "Sticker print",
     "amount": 289.2,
     "category": "Shopping"
+  },
+  {
+    "id": 1778866294974,
+    "date": "2026-05-15",
+    "description": "Insole and sunscreen (amazon)",
+    "amount": 1178,
+    "category": "Food"
   }
 ]
