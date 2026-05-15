@@ -873,5 +873,12 @@
     "description": "Punno Flight booking (flipkart)",
     "amount": 8255,
     "category": "Transport"
+  },
+  {
+    "id": 1778830764625,
+    "date": "2026-05-15",
+    "description": "Sticker print",
+    "amount": 289.2,
+    "category": "Shopping"
   }
 ]
