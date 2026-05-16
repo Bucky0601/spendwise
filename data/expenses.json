@@ -887,5 +887,12 @@
     "description": "Insole and sunscreen (amazon)",
     "amount": 1178,
     "category": "Food"
+  },
+  {
+    "id": 1778906384727,
+    "date": "2026-05-16",
+    "description": "Fruits",
+    "amount": 163,
+    "category": "Food"
   }
 ]
