@@ -901,5 +901,12 @@
     "description": "Vegetable + fruits",
     "amount": 311,
     "category": "Food"
+  },
+  {
+    "id": 1778926972155,
+    "date": "2026-05-16",
+    "description": "Home electricity bill (amazon)",
+    "amount": 464,
+    "category": "Bills & Utilities"
   }
 ]
