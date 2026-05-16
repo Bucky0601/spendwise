@@ -908,5 +908,12 @@
     "description": "Home electricity bill (amazon)",
     "amount": 464,
     "category": "Bills & Utilities"
+  },
+  {
+    "id": 1778929428332,
+    "date": "2026-05-16",
+    "description": "Medicine (platinumrx)",
+    "amount": 581.09,
+    "category": "Health"
   }
 ]
