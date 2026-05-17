@@ -915,5 +915,12 @@
     "description": "Medicine (platinumrx)",
     "amount": 581.09,
     "category": "Health"
+  },
+  {
+    "id": 1779030863481,
+    "date": "2026-05-17",
+    "description": "Chaach",
+    "amount": 90,
+    "category": "Food"
   }
 ]
