@@ -929,5 +929,12 @@
     "description": "Cricket match fee",
     "amount": 760,
     "category": "Other"
+  },
+  {
+    "id": 1779115016247,
+    "date": "2026-05-18",
+    "description": "Grocery (amazon)",
+    "amount": 153,
+    "category": "Grocery"
   }
 ]
