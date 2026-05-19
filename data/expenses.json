@@ -943,5 +943,12 @@
     "description": "Breakfast + lunch",
     "amount": 65,
     "category": "Food"
+  },
+  {
+    "id": 1779196325370,
+    "date": "2026-05-19",
+    "description": "Wifi bill home (nangla)",
+    "amount": 706.82,
+    "category": "Bills & Utilities"
   }
 ]
