@@ -950,5 +950,12 @@
     "description": "Wifi bill home (nangla)",
     "amount": 706.82,
     "category": "Bills & Utilities"
+  },
+  {
+    "id": 1779208694532,
+    "date": "2026-05-19",
+    "description": "Cricket bat ( india sport rohini)",
+    "amount": 11200,
+    "category": "Other"
   }
 ]
