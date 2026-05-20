@@ -957,5 +957,12 @@
     "description": "Cricket bat ( india sport rohini)",
     "amount": 11200,
     "category": "Other"
+  },
+  {
+    "id": 1779248877001,
+    "date": "2026-05-20",
+    "description": "Breakfast",
+    "amount": 65,
+    "category": "Food"
   }
 ]
