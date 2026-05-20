@@ -964,5 +964,12 @@
     "description": "Breakfast",
     "amount": 65,
     "category": "Food"
+  },
+  {
+    "id": 1779271849983,
+    "date": "2026-05-20",
+    "description": "Parlour",
+    "amount": 350,
+    "category": "Other"
   }
 ]
