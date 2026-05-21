@@ -985,5 +985,12 @@
     "description": "Banana",
     "amount": 28.74,
     "category": "Grocery"
+  },
+  {
+    "id": 1779378495587,
+    "date": "2026-05-21",
+    "description": "Sbi CC bill (cashback)",
+    "amount": 13551,
+    "category": "Bills & Utilities"
   }
 ]
