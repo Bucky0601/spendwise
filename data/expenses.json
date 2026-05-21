@@ -978,5 +978,12 @@
     "description": "Petrol filling",
     "amount": 381.49,
     "category": "Transport"
+  },
+  {
+    "id": 1779358654242,
+    "date": "2026-05-21",
+    "description": "Banana",
+    "amount": 28.74,
+    "category": "Grocery"
   }
 ]
