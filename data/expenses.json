@@ -971,5 +971,12 @@
     "description": "Parlour",
     "amount": 350,
     "category": "Other"
+  },
+  {
+    "id": 1779337737233,
+    "date": "2026-05-21",
+    "description": "Petrol filling",
+    "amount": 381.49,
+    "category": "Transport"
   }
 ]
