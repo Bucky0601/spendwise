@@ -999,5 +999,12 @@
     "description": "Lunch with friend",
     "amount": 796.75,
     "category": "Food"
+  },
+  {
+    "id": 1779461049797,
+    "date": "2026-05-22",
+    "description": "Grocery (amazon)",
+    "amount": 108,
+    "category": "Grocery"
   }
 ]
