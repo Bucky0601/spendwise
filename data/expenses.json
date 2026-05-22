@@ -992,5 +992,12 @@
     "description": "Sbi CC bill (cashback)",
     "amount": 13551,
     "category": "Bills & Utilities"
+  },
+  {
+    "id": 1779434321413,
+    "date": "2026-05-22",
+    "description": "Lunch with friend",
+    "amount": 796.75,
+    "category": "Food"
   }
 ]
