@@ -1020,5 +1020,12 @@
     "description": "Mango (amazon)",
     "amount": 207,
     "category": "Grocery"
+  },
+  {
+    "id": 1779539327766,
+    "date": "2026-05-23",
+    "description": "Cricket fee",
+    "amount": 760,
+    "category": "Other"
   }
 ]
