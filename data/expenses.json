@@ -1027,5 +1027,12 @@
     "description": "Cricket fee",
     "amount": 760,
     "category": "Other"
+  },
+  {
+    "id": 1779539417251,
+    "date": "2026-05-23",
+    "description": "Dinner",
+    "amount": 237.03,
+    "category": "Food"
   }
 ]
