@@ -1034,5 +1034,12 @@
     "description": "Dinner",
     "amount": 237.03,
     "category": "Food"
+  },
+  {
+    "id": 1779550680647,
+    "date": "2026-05-23",
+    "description": "Scooty service",
+    "amount": 1200,
+    "category": "Transport"
   }
 ]
