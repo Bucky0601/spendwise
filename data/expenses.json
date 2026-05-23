@@ -1013,5 +1013,12 @@
     "description": "Tea",
     "amount": 49,
     "category": "Food"
+  },
+  {
+    "id": 1779539299146,
+    "date": "2026-05-23",
+    "description": "Mango (amazon)",
+    "amount": 207,
+    "category": "Grocery"
   }
 ]
