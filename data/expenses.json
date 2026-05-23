@@ -1006,5 +1006,12 @@
     "description": "Grocery (amazon)",
     "amount": 108,
     "category": "Grocery"
+  },
+  {
+    "id": 1779514310119,
+    "date": "2026-05-23",
+    "description": "Tea",
+    "amount": 49,
+    "category": "Food"
   }
 ]
