@@ -1062,5 +1062,12 @@
     "description": "Grocery (local)",
     "amount": 335,
     "category": "Grocery"
+  },
+  {
+    "id": 1779893675031,
+    "date": "2026-05-27",
+    "description": "Grocery (flipkart)",
+    "amount": 360,
+    "category": "Grocery"
   }
 ]
