@@ -1048,5 +1048,12 @@
     "description": "Sofa cleaning",
     "amount": 751,
     "category": "Bills & Utilities"
+  },
+  {
+    "id": 1779893616657,
+    "date": "2026-05-27",
+    "description": "Udupi dinner",
+    "amount": 777,
+    "category": "Food"
   }
 ]
