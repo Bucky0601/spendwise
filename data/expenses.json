@@ -1055,5 +1055,12 @@
     "description": "Udupi dinner",
     "amount": 777,
     "category": "Food"
+  },
+  {
+    "id": 1779893633546,
+    "date": "2026-05-27",
+    "description": "Grocery (local)",
+    "amount": 335,
+    "category": "Grocery"
   }
 ]
