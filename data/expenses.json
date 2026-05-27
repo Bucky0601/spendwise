@@ -1041,5 +1041,12 @@
     "description": "Scooty service",
     "amount": 1200,
     "category": "Transport"
+  },
+  {
+    "id": 1779863012948,
+    "date": "2026-05-27",
+    "description": "Sofa cleaning",
+    "amount": 751,
+    "category": "Bills & Utilities"
   }
 ]
