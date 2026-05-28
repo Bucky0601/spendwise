@@ -1090,5 +1090,12 @@
     "description": "Crocs (flipkart)",
     "amount": 2233,
     "category": "Shopping"
+  },
+  {
+    "id": 1779980387166,
+    "date": "2026-05-28",
+    "description": "Icici amazon cc bill",
+    "amount": 12811.04,
+    "category": "Bills & Utilities"
   }
 ]
