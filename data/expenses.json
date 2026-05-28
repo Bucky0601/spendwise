@@ -1069,5 +1069,12 @@
     "description": "Grocery (flipkart)",
     "amount": 360,
     "category": "Grocery"
+  },
+  {
+    "id": 1779942318955,
+    "date": "2026-05-28",
+    "description": "Breakfast",
+    "amount": 50,
+    "category": "Food"
   }
 ]
