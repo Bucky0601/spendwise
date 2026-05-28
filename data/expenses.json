@@ -1083,5 +1083,12 @@
     "description": "Lunch",
     "amount": 25,
     "category": "Food"
+  },
+  {
+    "id": 1779980321121,
+    "date": "2026-05-28",
+    "description": "Crocs (flipkart)",
+    "amount": 2233,
+    "category": "Shopping"
   }
 ]
