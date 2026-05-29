@@ -1097,5 +1097,12 @@
     "description": "Icici amazon cc bill",
     "amount": 12811.04,
     "category": "Bills & Utilities"
+  },
+  {
+    "id": 1780026915923,
+    "date": "2026-05-29",
+    "description": "Vegetable + fruits",
+    "amount": 282,
+    "category": "Food"
   }
 ]
