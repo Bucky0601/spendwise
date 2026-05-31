@@ -1111,5 +1111,12 @@
     "description": "Vegetable + fruits",
     "amount": 464,
     "category": "Food"
+  },
+  {
+    "id": 1780221900429,
+    "date": "2026-05-31",
+    "description": "Petrol",
+    "amount": 344.99,
+    "category": "Transport"
   }
 ]
