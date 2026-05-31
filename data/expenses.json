@@ -1104,5 +1104,12 @@
     "description": "Vegetable + fruits",
     "amount": 282,
     "category": "Food"
+  },
+  {
+    "id": 1780207227174,
+    "date": "2026-05-31",
+    "description": "Vegetable + fruits",
+    "amount": 464,
+    "category": "Food"
   }
 ]
