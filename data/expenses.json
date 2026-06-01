@@ -1125,5 +1125,12 @@
     "description": "Rent for May 2026",
     "amount": 33051,
     "category": "Rent"
+  },
+  {
+    "id": 1780285738287,
+    "date": "2026-06-01",
+    "description": "Bbmp cleaners payment",
+    "amount": 100,
+    "category": "Bills & Utilities"
   }
 ]
