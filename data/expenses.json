@@ -1132,5 +1132,12 @@
     "description": "Bbmp cleaners payment",
     "amount": 100,
     "category": "Bills & Utilities"
+  },
+  {
+    "id": 1780326959732,
+    "date": "2026-06-01",
+    "description": "Dmart grocery",
+    "amount": 3054,
+    "category": "Grocery"
   }
 ]
