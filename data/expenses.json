@@ -1118,5 +1118,12 @@
     "description": "Petrol",
     "amount": 344.99,
     "category": "Transport"
+  },
+  {
+    "id": 1780285720329,
+    "date": "2026-06-01",
+    "description": "Rent for May 2026",
+    "amount": 33051,
+    "category": "Rent"
   }
 ]
