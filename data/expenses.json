@@ -1146,5 +1146,12 @@
     "description": "Cricket bat accessory (amazon)",
     "amount": 363,
     "category": "Other"
+  },
+  {
+    "id": 1780423593646,
+    "date": "2026-06-01",
+    "description": "Vegetable + fruits",
+    "amount": 374,
+    "category": "Food"
   }
 ]
