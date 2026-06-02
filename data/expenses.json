@@ -1139,5 +1139,12 @@
     "description": "Dmart grocery",
     "amount": 3054,
     "category": "Grocery"
+  },
+  {
+    "id": 1780420262645,
+    "date": "2026-06-02",
+    "description": "Cricket bat accessory (amazon)",
+    "amount": 363,
+    "category": "Other"
   }
 ]
