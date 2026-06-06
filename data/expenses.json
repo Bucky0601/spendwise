@@ -1160,5 +1160,12 @@
     "description": "Vegetable + fruits",
     "amount": 300,
     "category": "Food"
+  },
+  {
+    "id": 1780731183820,
+    "date": "2026-06-06",
+    "description": "Electricity bill (BANGALORE)",
+    "amount": 641,
+    "category": "Bills & Utilities"
   }
 ]
