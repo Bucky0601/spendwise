@@ -1167,5 +1167,12 @@
     "description": "Electricity bill (BANGALORE)",
     "amount": 641,
     "category": "Bills & Utilities"
+  },
+  {
+    "id": 1780759357747,
+    "date": "2026-06-06",
+    "description": "Hair serum",
+    "amount": 219,
+    "category": "Shopping"
   }
 ]
