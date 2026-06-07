@@ -1174,5 +1174,12 @@
     "description": "Hair serum",
     "amount": 219,
     "category": "Shopping"
+  },
+  {
+    "id": 1780839581951,
+    "date": "2026-06-07",
+    "description": "Grocery (amazon)",
+    "amount": 415,
+    "category": "Grocery"
   }
 ]
