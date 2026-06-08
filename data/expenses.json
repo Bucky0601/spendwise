@@ -1181,5 +1181,12 @@
     "description": "Grocery (amazon)",
     "amount": 415,
     "category": "Grocery"
+  },
+  {
+    "id": 1780926051241,
+    "date": "2026-06-08",
+    "description": "Cricheroes pro",
+    "amount": 399,
+    "category": "Other"
   }
 ]
