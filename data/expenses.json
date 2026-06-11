@@ -1237,5 +1237,12 @@
     "description": "Mesho",
     "amount": 373,
     "category": "Other"
+  },
+  {
+    "id": 1781171988065,
+    "date": "2026-06-04",
+    "description": "Mesho",
+    "amount": 344,
+    "category": "Food"
   }
 ]
