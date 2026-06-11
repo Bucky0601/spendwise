@@ -1202,5 +1202,12 @@
     "description": "Breakfast + lunch",
     "amount": 75,
     "category": "Food"
+  },
+  {
+    "id": 1781171692984,
+    "date": "2026-06-11",
+    "description": "Vegetable + fruits",
+    "amount": 503,
+    "category": "Food"
   }
 ]
