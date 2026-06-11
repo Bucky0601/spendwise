@@ -1195,5 +1195,12 @@
     "description": "Omega3 (tata 1mg)",
     "amount": 823,
     "category": "Health"
+  },
+  {
+    "id": 1781165722325,
+    "date": "2026-06-11",
+    "description": "Breakfast + lunch",
+    "amount": 75,
+    "category": "Food"
   }
 ]
