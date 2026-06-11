@@ -1244,5 +1244,12 @@
     "description": "Mesho",
     "amount": 344,
     "category": "Other"
+  },
+  {
+    "id": 1781183590911,
+    "date": "2026-06-11",
+    "description": "Petrol filling",
+    "amount": 410.44,
+    "category": "Transport"
   }
 ]
