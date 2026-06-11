@@ -1230,5 +1230,12 @@
     "description": "Fruits",
     "amount": 55,
     "category": "Food"
+  },
+  {
+    "id": 1781171951604,
+    "date": "2026-06-05",
+    "description": "Mesho",
+    "amount": 373,
+    "category": "Other"
   }
 ]
