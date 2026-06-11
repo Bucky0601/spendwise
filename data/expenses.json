@@ -1251,5 +1251,12 @@
     "description": "Petrol filling",
     "amount": 410.44,
     "category": "Transport"
+  },
+  {
+    "id": 1781194329039,
+    "date": "2026-06-11",
+    "description": "Gift for Manisha's baby shower (amazon)",
+    "amount": 805,
+    "category": "Shopping"
   }
 ]
