@@ -1272,5 +1272,12 @@
     "description": "Grocery + gift for manisha (amazon)",
     "amount": 755,
     "category": "Shopping"
+  },
+  {
+    "id": 1781455693417,
+    "date": "2026-06-14",
+    "description": "Compression tight (flipkart)",
+    "amount": 621,
+    "category": "Shopping"
   }
 ]
