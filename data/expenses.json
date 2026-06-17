@@ -1279,5 +1279,12 @@
     "description": "Compression tight (flipkart)",
     "amount": 621,
     "category": "Shopping"
+  },
+  {
+    "id": 1781686710597,
+    "date": "2026-06-17",
+    "description": "Cadence cricket Tshirt",
+    "amount": 700,
+    "category": "Other"
   }
 ]
