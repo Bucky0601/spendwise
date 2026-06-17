@@ -1286,5 +1286,12 @@
     "description": "Cadence cricket Tshirt",
     "amount": 700,
     "category": "Other"
+  },
+  {
+    "id": 1781686727241,
+    "date": "2026-06-16",
+    "description": "Dinner",
+    "amount": 913,
+    "category": "Food"
   }
 ]
