@@ -1293,5 +1293,12 @@
     "description": "Dinner",
     "amount": 913,
     "category": "Food"
+  },
+  {
+    "id": 1781693003050,
+    "date": "2026-06-17",
+    "description": "Thesis (1 copy) + black color",
+    "amount": 635,
+    "category": "Education"
   }
 ]
