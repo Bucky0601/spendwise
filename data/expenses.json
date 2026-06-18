@@ -1307,5 +1307,12 @@
     "description": "Moon daal halwa(eat club)",
     "amount": 557,
     "category": "Food"
+  },
+  {
+    "id": 1781784533848,
+    "date": "2026-06-18",
+    "description": "Petrol",
+    "amount": 272.89,
+    "category": "Transport"
   }
 ]
