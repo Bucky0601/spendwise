@@ -1314,5 +1314,12 @@
     "description": "Petrol",
     "amount": 272.89,
     "category": "Transport"
+  },
+  {
+    "id": 1781871761704,
+    "date": "2026-06-19",
+    "description": "Cricket fee",
+    "amount": 585,
+    "category": "Other"
   }
 ]
