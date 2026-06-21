@@ -1342,5 +1342,12 @@
     "description": "Fruits(star)",
     "amount": 1478.29,
     "category": "Grocery"
+  },
+  {
+    "id": 1782048350635,
+    "date": "2026-06-21",
+    "description": "Thesis (3rd)",
+    "amount": 550,
+    "category": "Education"
   }
 ]
