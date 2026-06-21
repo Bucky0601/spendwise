@@ -1349,5 +1349,12 @@
     "description": "Thesis (3rd)",
     "amount": 550,
     "category": "Education"
+  },
+  {
+    "id": 1782059732483,
+    "date": "2026-06-21",
+    "description": "Amazon shopping",
+    "amount": 657.33,
+    "category": "Shopping"
   }
 ]
