@@ -1328,5 +1328,12 @@
     "description": "Dinner",
     "amount": 389,
     "category": "Food"
+  },
+  {
+    "id": 1782012951315,
+    "date": "2026-06-21",
+    "description": "Nariyal paani + banana",
+    "amount": 200,
+    "category": "Grocery"
   }
 ]
