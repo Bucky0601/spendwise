@@ -1335,5 +1335,12 @@
     "description": "Nariyal paani + banana",
     "amount": 200,
     "category": "Grocery"
+  },
+  {
+    "id": 1782048184284,
+    "date": "2026-06-21",
+    "description": "Fruits(star)",
+    "amount": 1478.29,
+    "category": "Grocery"
   }
 ]
