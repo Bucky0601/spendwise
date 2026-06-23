@@ -1356,5 +1356,12 @@
     "description": "Amazon shopping",
     "amount": 657.33,
     "category": "Shopping"
+  },
+  {
+    "id": 1782183940973,
+    "date": "2026-06-23",
+    "description": "Meesho order",
+    "amount": 130,
+    "category": "Shopping"
   }
 ]
