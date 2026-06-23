@@ -1363,5 +1363,12 @@
     "description": "Meesho order",
     "amount": 130,
     "category": "Shopping"
+  },
+  {
+    "id": 1782183968010,
+    "date": "2026-06-23",
+    "description": "Lab test (pregnancy)",
+    "amount": 1800,
+    "category": "Health"
   }
 ]
