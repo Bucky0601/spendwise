@@ -1370,5 +1370,12 @@
     "description": "Lab test (pregnancy)",
     "amount": 1800,
     "category": "Health"
+  },
+  {
+    "id": 1782183996774,
+    "date": "2026-06-22",
+    "description": "Doctor consultation",
+    "amount": 1000,
+    "category": "Food"
   }
 ]
