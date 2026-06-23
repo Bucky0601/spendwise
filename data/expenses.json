@@ -1377,5 +1377,12 @@
     "description": "Doctor consultation",
     "amount": 1000,
     "category": "Food"
+  },
+  {
+    "id": 1782184017687,
+    "date": "2026-06-22",
+    "description": "Nariyal paani",
+    "amount": 350,
+    "category": "Grocery"
   }
 ]
