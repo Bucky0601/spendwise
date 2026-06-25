@@ -1384,5 +1384,12 @@
     "description": "Nariyal paani",
     "amount": 350,
     "category": "Grocery"
+  },
+  {
+    "id": 1782358851683,
+    "date": "2026-06-25",
+    "description": "Breakfast",
+    "amount": 50,
+    "category": "Food"
   }
 ]
