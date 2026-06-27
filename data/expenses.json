@@ -1405,5 +1405,12 @@
     "description": "Parcel (delhivery)",
     "amount": 150,
     "category": "Other"
+  },
+  {
+    "id": 1782543337633,
+    "date": "2026-06-27",
+    "description": "Cold drink (flipkart)",
+    "amount": 125,
+    "category": "Food"
   }
 ]
