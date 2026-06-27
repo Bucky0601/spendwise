@@ -1398,5 +1398,12 @@
     "description": "Grocery (flipkart)",
     "amount": 159,
     "category": "Grocery"
+  },
+  {
+    "id": 1782543190232,
+    "date": "2026-06-27",
+    "description": "Parcel (delhivery)",
+    "amount": 150,
+    "category": "Other"
   }
 ]
