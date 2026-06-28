@@ -1412,5 +1412,12 @@
     "description": "Cold drink (flipkart)",
     "amount": 125,
     "category": "Food"
+  },
+  {
+    "id": 1782618828619,
+    "date": "2026-06-28",
+    "description": "Grocery (big basket)",
+    "amount": 221.7,
+    "category": "Grocery"
   }
 ]
