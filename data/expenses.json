@@ -1440,5 +1440,12 @@
     "description": "Petrol",
     "amount": 450.38,
     "category": "Transport"
+  },
+  {
+    "id": 1782721830251,
+    "date": "2026-06-29",
+    "description": "Lunch",
+    "amount": 483,
+    "category": "Food"
   }
 ]
