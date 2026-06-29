@@ -1419,5 +1419,12 @@
     "description": "Grocery (big basket)",
     "amount": 221.7,
     "category": "Grocery"
+  },
+  {
+    "id": 1782704543626,
+    "date": "2026-06-29",
+    "description": "Hair cutting",
+    "amount": 200,
+    "category": "Other"
   }
 ]
