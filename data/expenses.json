@@ -1426,5 +1426,12 @@
     "description": "Hair cutting",
     "amount": 200,
     "category": "Other"
+  },
+  {
+    "id": 1782704558357,
+    "date": "2026-06-29",
+    "description": "Nariyal paani",
+    "amount": 250,
+    "category": "Food"
   }
 ]
