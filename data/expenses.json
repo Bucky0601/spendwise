@@ -1447,5 +1447,12 @@
     "description": "Lunch",
     "amount": 483,
     "category": "Food"
+  },
+  {
+    "id": 1782721879193,
+    "date": "2026-06-29",
+    "description": "EP scan (cloud9)",
+    "amount": 3250,
+    "category": "Health"
   }
 ]
