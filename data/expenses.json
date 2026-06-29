@@ -1454,5 +1454,12 @@
     "description": "EP scan (cloud9)",
     "amount": 3250,
     "category": "Health"
+  },
+  {
+    "id": 1782736997394,
+    "date": "2026-06-29",
+    "description": "Ramayan (amazon) (gita press)",
+    "amount": 659,
+    "category": "Education"
   }
 ]
