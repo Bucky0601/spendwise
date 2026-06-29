@@ -1433,5 +1433,12 @@
     "description": "Nariyal paani",
     "amount": 250,
     "category": "Food"
+  },
+  {
+    "id": 1782704599974,
+    "date": "2026-06-29",
+    "description": "Petrol",
+    "amount": 450.38,
+    "category": "Transport"
   }
 ]
