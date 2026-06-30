@@ -1468,5 +1468,12 @@
     "description": "Sanatan books",
     "amount": 899,
     "category": "Education"
+  },
+  {
+    "id": 1782820119876,
+    "date": "2026-06-30",
+    "description": "Coconut opener (meesho)",
+    "amount": 99,
+    "category": "Shopping"
   }
 ]
