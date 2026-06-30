@@ -1461,5 +1461,12 @@
     "description": "Ramayan (amazon) (gita press)",
     "amount": 659,
     "category": "Education"
+  },
+  {
+    "id": 1782789989820,
+    "date": "2026-06-30",
+    "description": "Sanatan books",
+    "amount": 899,
+    "category": "Education"
   }
 ]
