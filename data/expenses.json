@@ -1475,5 +1475,12 @@
     "description": "Coconut opener (meesho)",
     "amount": 99,
     "category": "Shopping"
+  },
+  {
+    "id": 1782912744678,
+    "date": "2026-07-01",
+    "description": "Rent june 2026",
+    "amount": 33051,
+    "category": "Rent"
   }
 ]
