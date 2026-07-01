@@ -1482,5 +1482,12 @@
     "description": "Rent june 2026",
     "amount": 33051,
     "category": "Rent"
+  },
+  {
+    "id": 1782912805070,
+    "date": "2026-07-01",
+    "description": "Bbmp guys payment",
+    "amount": 100,
+    "category": "Bills & Utilities"
   }
 ]
