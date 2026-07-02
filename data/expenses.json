@@ -1496,5 +1496,12 @@
     "description": "Badminton",
     "amount": 102,
     "category": "Other"
+  },
+  {
+    "id": 1782976547129,
+    "date": "2026-07-02",
+    "description": "Fastag recharge",
+    "amount": 500,
+    "category": "Transport"
   }
 ]
