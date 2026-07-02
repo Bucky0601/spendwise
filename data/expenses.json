@@ -1503,5 +1503,12 @@
     "description": "Fastag recharge",
     "amount": 500,
     "category": "Transport"
+  },
+  {
+    "id": 1782982011891,
+    "date": "2026-07-02",
+    "description": "Broadband bill (bangalore)",
+    "amount": 1710,
+    "category": "Bills & Utilities"
   }
 ]
