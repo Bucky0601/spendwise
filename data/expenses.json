@@ -1510,5 +1510,12 @@
     "description": "Broadband bill (bangalore)",
     "amount": 1710,
     "category": "Bills & Utilities"
+  },
+  {
+    "id": 1783050957855,
+    "date": "2026-07-03",
+    "description": "Fevikwik (local)",
+    "amount": 80,
+    "category": "Other"
   }
 ]
