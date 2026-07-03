@@ -1517,5 +1517,12 @@
     "description": "Fevikwik (local)",
     "amount": 80,
     "category": "Other"
+  },
+  {
+    "id": 1783069137404,
+    "date": "2026-07-03",
+    "description": "Fruits (local)",
+    "amount": 490,
+    "category": "Grocery"
   }
 ]
