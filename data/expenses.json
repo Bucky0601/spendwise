@@ -1538,5 +1538,12 @@
     "description": "Grocery (instamart)",
     "amount": 274,
     "category": "Grocery"
+  },
+  {
+    "id": 1783162282674,
+    "date": "2026-07-04",
+    "description": "Grocery (flipkart)",
+    "amount": 274,
+    "category": "Grocery"
   }
 ]
