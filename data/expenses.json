@@ -1531,5 +1531,12 @@
     "description": "Coffee",
     "amount": 130,
     "category": "Food"
+  },
+  {
+    "id": 1783162064159,
+    "date": "2026-07-04",
+    "description": "Grocery (instamart)",
+    "amount": 274,
+    "category": "Grocery"
   }
 ]
