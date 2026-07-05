@@ -1552,5 +1552,12 @@
     "description": "Technosport",
     "amount": 1832.36,
     "category": "Shopping"
+  },
+  {
+    "id": 1783240716110,
+    "date": "2026-07-05",
+    "description": "Grocery (Amazon)",
+    "amount": 228,
+    "category": "Food"
   }
 ]
