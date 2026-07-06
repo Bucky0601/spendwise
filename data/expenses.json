@@ -1566,5 +1566,12 @@
     "description": "Cadence cricket team",
     "amount": 1000,
     "category": "Other"
+  },
+  {
+    "id": 1783341176513,
+    "date": "2026-07-06",
+    "description": "16 amp extension board",
+    "amount": 700,
+    "category": "Other"
   }
 ]
