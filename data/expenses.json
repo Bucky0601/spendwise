@@ -1559,5 +1559,12 @@
     "description": "Grocery (Amazon)",
     "amount": 228,
     "category": "Grocery"
+  },
+  {
+    "id": 1783299481996,
+    "date": "2026-07-06",
+    "description": "Cadence cricket team",
+    "amount": 1000,
+    "category": "Other"
   }
 ]
