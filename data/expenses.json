@@ -1573,5 +1573,12 @@
     "description": "16 amp extension board",
     "amount": 700,
     "category": "Other"
+  },
+  {
+    "id": 1783426241664,
+    "date": "2026-07-07",
+    "description": "Grocery (flipkart)",
+    "amount": 302,
+    "category": "Grocery"
   }
 ]
