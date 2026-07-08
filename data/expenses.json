@@ -1587,5 +1587,12 @@
     "description": "Grocery (zepto)",
     "amount": 142,
     "category": "Grocery"
+  },
+  {
+    "id": 1783525659115,
+    "date": "2026-07-08",
+    "description": "Electricity bill (BANGALORE)",
+    "amount": 866,
+    "category": "Bills & Utilities"
   }
 ]
