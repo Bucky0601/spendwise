@@ -1594,5 +1594,12 @@
     "description": "Electricity bill (BANGALORE)",
     "amount": 866,
     "category": "Bills & Utilities"
+  },
+  {
+    "id": 1783604139162,
+    "date": "2026-07-09",
+    "description": "Grocery (Handpicked)",
+    "amount": 1000,
+    "category": "Grocery"
   }
 ]
