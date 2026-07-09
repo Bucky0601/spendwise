@@ -1615,5 +1615,12 @@
     "description": "Dinner (swiggy)",
     "amount": 440,
     "category": "Food"
+  },
+  {
+    "id": 1783608055805,
+    "date": "2026-07-09",
+    "description": "Grocery (flipkart)",
+    "amount": 423,
+    "category": "Grocery"
   }
 ]
