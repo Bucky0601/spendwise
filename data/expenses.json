@@ -1601,5 +1601,12 @@
     "description": "Grocery (Handpicked)",
     "amount": 1000,
     "category": "Grocery"
+  },
+  {
+    "id": 1783605817922,
+    "date": "2026-07-09",
+    "description": "Nps tier-2 contribution",
+    "amount": 1000,
+    "category": "Other"
   }
 ]
