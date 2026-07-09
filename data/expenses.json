@@ -1608,5 +1608,12 @@
     "description": "Nps tier-2 contribution",
     "amount": 1000,
     "category": "Other"
+  },
+  {
+    "id": 1783607939432,
+    "date": "2026-07-09",
+    "description": "Dinner (swiggy)",
+    "amount": 440,
+    "category": "Food"
   }
 ]
