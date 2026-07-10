@@ -1622,5 +1622,12 @@
     "description": "Grocery (flipkart)",
     "amount": 423,
     "category": "Grocery"
+  },
+  {
+    "id": 1783678003668,
+    "date": "2026-07-10",
+    "description": "Ghewar (rajwadi)",
+    "amount": 499,
+    "category": "Food"
   }
 ]
