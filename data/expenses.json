@@ -1636,5 +1636,12 @@
     "description": "Printout",
     "amount": 40,
     "category": "Food"
+  },
+  {
+    "id": 1783678033089,
+    "date": "2026-07-10",
+    "description": "Lunch",
+    "amount": 85,
+    "category": "Food"
   }
 ]
