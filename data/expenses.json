@@ -1629,5 +1629,12 @@
     "description": "Ghewar (rajwadi)",
     "amount": 499,
     "category": "Food"
+  },
+  {
+    "id": 1783678022455,
+    "date": "2026-07-10",
+    "description": "Printout",
+    "amount": 40,
+    "category": "Food"
   }
 ]
