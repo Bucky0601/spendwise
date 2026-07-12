@@ -1657,5 +1657,12 @@
     "description": "Petrol",
     "amount": 391.44,
     "category": "Transport"
+  },
+  {
+    "id": 1783876573290,
+    "date": "2026-07-12",
+    "description": "Recharge (airtel)",
+    "amount": 2249,
+    "category": "Bills & Utilities"
   }
 ]
