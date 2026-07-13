@@ -1671,5 +1671,12 @@
     "description": "Tiffin for Apexa",
     "amount": 634,
     "category": "Shopping"
+  },
+  {
+    "id": 1783937630858,
+    "date": "2026-07-13",
+    "description": "Parking",
+    "amount": 40,
+    "category": "Transport"
   }
 ]
