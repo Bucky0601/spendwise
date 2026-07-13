@@ -1685,5 +1685,12 @@
     "description": "Fruits (local)",
     "amount": 442,
     "category": "Grocery"
+  },
+  {
+    "id": 1783941190875,
+    "date": "2026-07-13",
+    "description": "Grocery (flipkart)",
+    "amount": 292,
+    "category": "Grocery"
   }
 ]
