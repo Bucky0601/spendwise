@@ -1692,5 +1692,12 @@
     "description": "Grocery (flipkart)",
     "amount": 292,
     "category": "Grocery"
+  },
+  {
+    "id": 1784216709052,
+    "date": "2026-07-16",
+    "description": "Grocery (Amazon)",
+    "amount": 500,
+    "category": "Grocery"
   }
 ]
