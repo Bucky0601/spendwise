@@ -1720,5 +1720,12 @@
     "description": "Handpicked recharge",
     "amount": 1000,
     "category": "Grocery"
+  },
+  {
+    "id": 1784390551863,
+    "date": "2026-07-18",
+    "description": "Cricket fee",
+    "amount": 655,
+    "category": "Other"
   }
 ]
