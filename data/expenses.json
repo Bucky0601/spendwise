@@ -1713,5 +1713,12 @@
     "description": "Grocery (Amazon)",
     "amount": 310,
     "category": "Grocery"
+  },
+  {
+    "id": 1784390012863,
+    "date": "2026-07-18",
+    "description": "Handpicked recharge",
+    "amount": 1000,
+    "category": "Grocery"
   }
 ]
