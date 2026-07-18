@@ -1706,5 +1706,12 @@
     "description": "Filter for vaccum (amazon)",
     "amount": 244,
     "category": "Other"
+  },
+  {
+    "id": 1784345152386,
+    "date": "2026-07-18",
+    "description": "Grocery (Amazon)",
+    "amount": 310,
+    "category": "Grocery"
   }
 ]
