@@ -1727,5 +1727,12 @@
     "description": "Cricket fee",
     "amount": 655,
     "category": "Health"
+  },
+  {
+    "id": 1784461141524,
+    "date": "2026-07-19",
+    "description": "Advance tax payment",
+    "amount": 7370,
+    "category": "Other"
   }
 ]
