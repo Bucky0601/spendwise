@@ -1734,5 +1734,12 @@
     "description": "Advance tax payment",
     "amount": 7370,
     "category": "Other"
+  },
+  {
+    "id": 1784650271908,
+    "date": "2026-07-21",
+    "description": "Almonds and dry fruits",
+    "amount": 1886.84,
+    "category": "Health"
   }
 ]
