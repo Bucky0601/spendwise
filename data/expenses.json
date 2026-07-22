@@ -1762,5 +1762,12 @@
     "description": "Satisabgol (zept",
     "amount": 187,
     "category": "Grocery"
+  },
+  {
+    "id": 1784735148647,
+    "date": "2026-07-22",
+    "description": "Grocery (Zepto)",
+    "amount": 151,
+    "category": "Grocery"
   }
 ]
