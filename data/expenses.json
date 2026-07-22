@@ -1748,5 +1748,12 @@
     "description": "Wifi bill home (nangla)",
     "amount": 710,
     "category": "Bills & Utilities"
+  },
+  {
+    "id": 1784714804699,
+    "date": "2026-07-22",
+    "description": "Cricket shoes",
+    "amount": 3065,
+    "category": "Shopping"
   }
 ]
