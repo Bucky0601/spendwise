@@ -1776,5 +1776,12 @@
     "description": "Grocery (Amazon)",
     "amount": 220,
     "category": "Grocery"
+  },
+  {
+    "id": 1784903043010,
+    "date": "2026-07-24",
+    "description": "Dinner (zomato)",
+    "amount": 506.98,
+    "category": "Food"
   }
 ]
