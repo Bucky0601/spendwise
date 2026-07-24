@@ -1769,5 +1769,12 @@
     "description": "Grocery (Zepto)",
     "amount": 151,
     "category": "Grocery"
+  },
+  {
+    "id": 1784863501031,
+    "date": "2026-07-24",
+    "description": "Grocery (Amazon)",
+    "amount": 220,
+    "category": "Grocery"
   }
 ]
