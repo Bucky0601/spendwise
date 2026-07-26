@@ -1797,5 +1797,12 @@
     "description": "Grocery (zepto)",
     "amount": 308,
     "category": "Grocery"
+  },
+  {
+    "id": 1785079428348,
+    "date": "2026-07-26",
+    "description": "Donation",
+    "amount": 500,
+    "category": "Other"
   }
 ]
