@@ -1804,5 +1804,12 @@
     "description": "Donation",
     "amount": 500,
     "category": "Other"
+  },
+  {
+    "id": 1785162065365,
+    "date": "2026-07-27",
+    "description": "Handpicked recharge",
+    "amount": 1000,
+    "category": "Grocery"
   }
 ]
