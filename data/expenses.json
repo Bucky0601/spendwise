@@ -1811,5 +1811,12 @@
     "description": "Handpicked recharge",
     "amount": 1000,
     "category": "Grocery"
+  },
+  {
+    "id": 1785234189825,
+    "date": "2026-07-28",
+    "description": "Petrol filling",
+    "amount": 423.75,
+    "category": "Transport"
   }
 ]
