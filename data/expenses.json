@@ -1818,5 +1818,12 @@
     "description": "Petrol filling",
     "amount": 423.75,
     "category": "Transport"
+  },
+  {
+    "id": 1785388384788,
+    "date": "2026-07-30",
+    "description": "Ghewar (rajwadi)",
+    "amount": 499,
+    "category": "Food"
   }
 ]
