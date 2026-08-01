@@ -1832,5 +1832,12 @@
     "description": "Grocery (Amazon)",
     "amount": 214,
     "category": "Grocery"
+  },
+  {
+    "id": 1785552787454,
+    "date": "2026-08-01",
+    "description": "Rent for july 2026 + e stamp duty",
+    "amount": 33651,
+    "category": "Rent"
   }
 ]
