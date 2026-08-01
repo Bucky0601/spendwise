@@ -1839,5 +1839,12 @@
     "description": "Rent for july 2026 + e stamp duty",
     "amount": 33651,
     "category": "Rent"
+  },
+  {
+    "id": 1785588784903,
+    "date": "2026-08-01",
+    "description": "Grocery (zepto)",
+    "amount": 348,
+    "category": "Grocery"
   }
 ]
