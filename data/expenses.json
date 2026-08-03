@@ -1867,5 +1867,12 @@
     "description": "Broadband bill",
     "amount": 1710,
     "category": "Bills & Utilities"
+  },
+  {
+    "id": 1785770874912,
+    "date": "2026-08-03",
+    "description": "Grocery (zepto)",
+    "amount": 223,
+    "category": "Grocery"
   }
 ]
