@@ -1853,5 +1853,12 @@
     "description": "Cricket fee",
     "amount": 600,
     "category": "Other"
+  },
+  {
+    "id": 1785734717209,
+    "date": "2026-08-03",
+    "description": "Books for chikki",
+    "amount": 1550,
+    "category": "Shopping"
   }
 ]
