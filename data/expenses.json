@@ -1860,5 +1860,12 @@
     "description": "Books for chikki",
     "amount": 1550,
     "category": "Shopping"
+  },
+  {
+    "id": 1785762616517,
+    "date": "2026-08-03",
+    "description": "Broadband bill",
+    "amount": 1710,
+    "category": "Bills & Utilities"
   }
 ]
