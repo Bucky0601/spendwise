@@ -1846,5 +1846,12 @@
     "description": "Grocery (zepto)",
     "amount": 348,
     "category": "Grocery"
+  },
+  {
+    "id": 1785724858835,
+    "date": "2026-08-02",
+    "description": "Cricket fee",
+    "amount": 600,
+    "category": "Other"
   }
 ]
