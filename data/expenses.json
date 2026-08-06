@@ -1881,5 +1881,12 @@
     "description": "Grocery (Amazon)",
     "amount": 613,
     "category": "Grocery"
+  },
+  {
+    "id": 1786000142105,
+    "date": "2026-08-06",
+    "description": "Petrol filling",
+    "amount": 343.88,
+    "category": "Transport"
   }
 ]
