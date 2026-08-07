@@ -1909,5 +1909,12 @@
     "description": "Jio fibre recharge home (15 months)",
     "amount": 10000,
     "category": "Bills & Utilities"
+  },
+  {
+    "id": 1786116275837,
+    "date": "2026-08-07",
+    "description": "Grocery (zepto)",
+    "amount": 167,
+    "category": "Grocery"
   }
 ]
