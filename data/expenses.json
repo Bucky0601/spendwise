@@ -1902,5 +1902,12 @@
     "description": "Grocery (Amazon)",
     "amount": 499,
     "category": "Grocery"
+  },
+  {
+    "id": 1786114836883,
+    "date": "2026-08-07",
+    "description": "Jio fibre recharge home (15 months)",
+    "amount": 10000,
+    "category": "Bills & Utilities"
   }
 ]
