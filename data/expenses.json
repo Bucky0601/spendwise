@@ -1888,5 +1888,12 @@
     "description": "Petrol filling",
     "amount": 343.88,
     "category": "Transport"
+  },
+  {
+    "id": 1786072868785,
+    "date": "2026-08-07",
+    "description": "Grocery(big basket)",
+    "amount": 461,
+    "category": "Grocery"
   }
 ]
