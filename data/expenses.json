@@ -1916,5 +1916,12 @@
     "description": "Grocery (zepto)",
     "amount": 167,
     "category": "Grocery"
+  },
+  {
+    "id": 1786272814604,
+    "date": "2026-08-09",
+    "description": "Samosas and kachori",
+    "amount": 180,
+    "category": "Food"
   }
 ]
