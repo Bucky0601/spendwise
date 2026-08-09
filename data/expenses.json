@@ -1923,5 +1923,12 @@
     "description": "Samosas and kachori",
     "amount": 180,
     "category": "Food"
+  },
+  {
+    "id": 1786272825379,
+    "date": "2026-08-09",
+    "description": "Nariyal paani",
+    "amount": 330,
+    "category": "Food"
   }
 ]
