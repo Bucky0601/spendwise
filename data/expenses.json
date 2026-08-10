@@ -1944,5 +1944,12 @@
     "description": "Grocery (local)",
     "amount": 867,
     "category": "Grocery"
+  },
+  {
+    "id": 1786358505938,
+    "date": "2026-08-10",
+    "description": "Hospital parking",
+    "amount": 50,
+    "category": "Other"
   }
 ]
