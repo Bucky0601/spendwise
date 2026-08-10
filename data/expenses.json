@@ -1951,5 +1951,12 @@
     "description": "Hospital parking",
     "amount": 50,
     "category": "Other"
+  },
+  {
+    "id": 1786358654239,
+    "date": "2026-08-10",
+    "description": "NT/NB scan 13th week",
+    "amount": 4270,
+    "category": "Health"
   }
 ]
