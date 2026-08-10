@@ -1937,5 +1937,12 @@
     "description": "Cricket fee",
     "amount": 760,
     "category": "Health"
+  },
+  {
+    "id": 1786358438169,
+    "date": "2026-08-10",
+    "description": "Grocery (local)",
+    "amount": 867,
+    "category": "Grocery"
   }
 ]
