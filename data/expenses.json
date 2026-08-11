@@ -1972,5 +1972,12 @@
     "description": "Fruit lunch",
     "amount": 85,
     "category": "Food"
+  },
+  {
+    "id": 1786453737738,
+    "date": "2026-08-11",
+    "description": "Grocery (Amazon)",
+    "amount": 508,
+    "category": "Food"
   }
 ]
