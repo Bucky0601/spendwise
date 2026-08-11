@@ -1965,5 +1965,12 @@
     "description": "Dual marker blood  test",
     "amount": 1501,
     "category": "Health"
+  },
+  {
+    "id": 1786437795745,
+    "date": "2026-08-11",
+    "description": "Fruit lunch",
+    "amount": 85,
+    "category": "Food"
   }
 ]
