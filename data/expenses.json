@@ -1979,5 +1979,12 @@
     "description": "Grocery (Amazon)",
     "amount": 508,
     "category": "Food"
+  },
+  {
+    "id": 1786457093286,
+    "date": "2026-08-11",
+    "description": "Grocery (flipkart)",
+    "amount": 165,
+    "category": "Grocery"
   }
 ]
