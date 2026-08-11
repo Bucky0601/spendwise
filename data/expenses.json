@@ -1958,5 +1958,12 @@
     "description": "NT/NB scan 13th week",
     "amount": 4270,
     "category": "Health"
+  },
+  {
+    "id": 1786425798854,
+    "date": "2026-08-11",
+    "description": "Dual marker blood  test",
+    "amount": 1501,
+    "category": "Health"
   }
 ]
