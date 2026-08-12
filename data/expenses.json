@@ -1986,5 +1986,12 @@
     "description": "Grocery (flipkart)",
     "amount": 165,
     "category": "Grocery"
+  },
+  {
+    "id": 1786532035086,
+    "date": "2026-08-12",
+    "description": "Vegetable+milk",
+    "amount": 199,
+    "category": "Food"
   }
 ]
