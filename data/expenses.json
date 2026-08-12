@@ -1993,5 +1993,12 @@
     "description": "Vegetable+milk",
     "amount": 199,
     "category": "Food"
+  },
+  {
+    "id": 1786537994422,
+    "date": "2026-08-12",
+    "description": "Car duster",
+    "amount": 399,
+    "category": "Other"
   }
 ]
