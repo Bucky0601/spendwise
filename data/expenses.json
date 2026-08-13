@@ -2007,5 +2007,12 @@
     "description": "Aadhar address update",
     "amount": 75.8,
     "category": "Other"
+  },
+  {
+    "id": 1786598859472,
+    "date": "2026-08-13",
+    "description": "Petrol filling",
+    "amount": 288.42,
+    "category": "Transport"
   }
 ]
