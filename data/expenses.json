@@ -2028,5 +2028,12 @@
     "description": "Random sena contribution",
     "amount": 501,
     "category": "Other"
+  },
+  {
+    "id": 1786624416513,
+    "date": "2026-08-13",
+    "description": "Electricity bill (BANGALORE)",
+    "amount": 398,
+    "category": "Bills & Utilities"
   }
 ]
