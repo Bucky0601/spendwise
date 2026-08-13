@@ -2014,5 +2014,12 @@
     "description": "Petrol filling",
     "amount": 288.42,
     "category": "Transport"
+  },
+  {
+    "id": 1786598877040,
+    "date": "2026-08-13",
+    "description": "Pollution check scooty",
+    "amount": 65,
+    "category": "Transport"
   }
 ]
