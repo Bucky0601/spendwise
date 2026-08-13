@@ -2021,5 +2021,12 @@
     "description": "Pollution check scooty",
     "amount": 65,
     "category": "Transport"
+  },
+  {
+    "id": 1786620842006,
+    "date": "2026-08-13",
+    "description": "Random sena contribution",
+    "amount": 501,
+    "category": "Other"
   }
 ]
