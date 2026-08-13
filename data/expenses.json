@@ -2035,5 +2035,12 @@
     "description": "Electricity bill (BANGALORE)",
     "amount": 398,
     "category": "Bills & Utilities"
+  },
+  {
+    "id": 1786624460790,
+    "date": "2026-08-13",
+    "description": "Electricity bill home (amazon)",
+    "amount": 752,
+    "category": "Bills & Utilities"
   }
 ]
