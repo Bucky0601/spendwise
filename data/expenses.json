@@ -2056,5 +2056,12 @@
     "description": "Ghewar (rajwadi)",
     "amount": 524,
     "category": "Food"
+  },
+  {
+    "id": 1786800049447,
+    "date": "2026-08-15",
+    "description": "Grocery (Amazon)",
+    "amount": 148,
+    "category": "Grocery"
   }
 ]
