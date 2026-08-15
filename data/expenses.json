@@ -2042,5 +2042,12 @@
     "description": "Electricity bill home (amazon)",
     "amount": 752,
     "category": "Bills & Utilities"
+  },
+  {
+    "id": 1786799989146,
+    "date": "2026-08-15",
+    "description": "Uber parcel to giant ground",
+    "amount": 129.08,
+    "category": "Other"
   }
 ]
