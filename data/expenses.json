@@ -2049,5 +2049,12 @@
     "description": "Uber parcel to giant ground",
     "amount": 129.08,
     "category": "Other"
+  },
+  {
+    "id": 1786800001908,
+    "date": "2026-08-15",
+    "description": "Ghewar (rajwadi)",
+    "amount": 524,
+    "category": "Food"
   }
 ]
