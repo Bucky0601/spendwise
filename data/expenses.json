@@ -2084,5 +2084,12 @@
     "description": "Jan ausdhi mesicine",
     "amount": 316,
     "category": "Health"
+  },
+  {
+    "id": 1786966103102,
+    "date": "2026-08-17",
+    "description": "Praveena shenoi consultation",
+    "amount": 1200,
+    "category": "Health"
   }
 ]
