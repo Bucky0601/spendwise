@@ -2098,5 +2098,12 @@
     "description": "Grocery (local)",
     "amount": 400,
     "category": "Grocery"
+  },
+  {
+    "id": 1786966139005,
+    "date": "2026-08-17",
+    "description": "Icecream (local)",
+    "amount": 310,
+    "category": "Grocery"
   }
 ]
