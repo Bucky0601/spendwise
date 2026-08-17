@@ -2105,5 +2105,12 @@
     "description": "Icecream (local)",
     "amount": 310,
     "category": "Grocery"
+  },
+  {
+    "id": 1786966627052,
+    "date": "2026-08-17",
+    "description": "Pomegranate 1kg",
+    "amount": 125,
+    "category": "Grocery"
   }
 ]
