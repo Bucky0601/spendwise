@@ -2091,5 +2091,12 @@
     "description": "Praveena shenoi consultation",
     "amount": 1200,
     "category": "Health"
+  },
+  {
+    "id": 1786966119466,
+    "date": "2026-08-17",
+    "description": "Grocery (local)",
+    "amount": 400,
+    "category": "Grocery"
   }
 ]
