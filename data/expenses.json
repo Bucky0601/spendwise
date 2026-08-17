@@ -2077,5 +2077,12 @@
     "description": "Cricket fee",
     "amount": 650,
     "category": "Health"
+  },
+  {
+    "id": 1786966079089,
+    "date": "2026-08-17",
+    "description": "Jan ausdhi mesicine",
+    "amount": 316,
+    "category": "Health"
   }
 ]
