@@ -2112,5 +2112,12 @@
     "description": "Pomegranate 1kg",
     "amount": 125,
     "category": "Grocery"
+  },
+  {
+    "id": 1787150768521,
+    "date": "2026-08-19",
+    "description": "Advance payment for movers and packers",
+    "amount": 10500,
+    "category": "Transport"
   }
 ]
