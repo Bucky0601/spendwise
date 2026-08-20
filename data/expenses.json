@@ -2119,5 +2119,12 @@
     "description": "Advance payment for movers and packers",
     "amount": 10500,
     "category": "Transport"
+  },
+  {
+    "id": 1787194383727,
+    "date": "2026-08-20",
+    "description": "Grocery (Amazon)",
+    "amount": 138,
+    "category": "Grocery"
   }
 ]
