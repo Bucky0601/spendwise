@@ -2133,5 +2133,12 @@
     "description": "Grocery (Amazon)",
     "amount": 274,
     "category": "Grocery"
+  },
+  {
+    "id": 1787298576772,
+    "date": "2026-08-21",
+    "description": "Lunch",
+    "amount": 85,
+    "category": "Food"
   }
 ]
