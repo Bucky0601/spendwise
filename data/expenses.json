@@ -2140,5 +2140,12 @@
     "description": "Lunch",
     "amount": 85,
     "category": "Food"
+  },
+  {
+    "id": 1787306464679,
+    "date": "2026-08-21",
+    "description": "Vegetable",
+    "amount": 206,
+    "category": "Food"
   }
 ]
