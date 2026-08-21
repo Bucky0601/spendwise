@@ -2147,5 +2147,12 @@
     "description": "Vegetable",
     "amount": 206,
     "category": "Food"
+  },
+  {
+    "id": 1787317899626,
+    "date": "2026-08-21",
+    "description": "Grocery (zepto)",
+    "amount": 265,
+    "category": "Grocery"
   }
 ]
