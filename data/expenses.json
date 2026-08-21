@@ -2126,5 +2126,12 @@
     "description": "Grocery (Amazon)",
     "amount": 138,
     "category": "Grocery"
+  },
+  {
+    "id": 1787278783250,
+    "date": "2026-08-21",
+    "description": "Grocery (Amazon)",
+    "amount": 274,
+    "category": "Grocery"
   }
 ]
