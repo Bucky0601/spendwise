@@ -2161,5 +2161,12 @@
     "description": "Dosas with cricket friends",
     "amount": 275,
     "category": "Food"
+  },
+  {
+    "id": 1787408096955,
+    "date": "2026-08-22",
+    "description": "Raakhi",
+    "amount": 308,
+    "category": "Shopping"
   }
 ]
