@@ -2168,5 +2168,12 @@
     "description": "Raakhi",
     "amount": 308,
     "category": "Shopping"
+  },
+  {
+    "id": 1787408476392,
+    "date": "2026-08-22",
+    "description": "Cricket fee",
+    "amount": 800,
+    "category": "Health"
   }
 ]
