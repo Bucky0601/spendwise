@@ -2154,5 +2154,12 @@
     "description": "Grocery (zepto)",
     "amount": 265,
     "category": "Grocery"
+  },
+  {
+    "id": 1787384593951,
+    "date": "2026-08-22",
+    "description": "Dosas with cricket friends",
+    "amount": 275,
+    "category": "Food"
   }
 ]
