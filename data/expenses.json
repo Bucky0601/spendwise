@@ -2182,5 +2182,12 @@
     "description": "Grocery (Amazon)",
     "amount": 216,
     "category": "Grocery"
+  },
+  {
+    "id": 1787488504165,
+    "date": "2026-08-23",
+    "description": "Grocery (bigbasket)",
+    "amount": 278.85,
+    "category": "Grocery"
   }
 ]
