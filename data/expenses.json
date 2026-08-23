@@ -2175,5 +2175,12 @@
     "description": "Cricket fee",
     "amount": 800,
     "category": "Health"
+  },
+  {
+    "id": 1787454933318,
+    "date": "2026-08-23",
+    "description": "Grocery (Amazon)",
+    "amount": 216,
+    "category": "Grocery"
   }
 ]
