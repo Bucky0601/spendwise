@@ -2189,5 +2189,12 @@
     "description": "Grocery (bigbasket)",
     "amount": 278.85,
     "category": "Grocery"
+  },
+  {
+    "id": 1787584248827,
+    "date": "2026-08-24",
+    "description": "Punno cloth",
+    "amount": 1957,
+    "category": "Shopping"
   }
 ]
