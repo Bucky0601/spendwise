@@ -2196,5 +2196,12 @@
     "description": "Punno cloth",
     "amount": 1957,
     "category": "Shopping"
+  },
+  {
+    "id": 1787627052395,
+    "date": "2026-08-25",
+    "description": "Grocery (Amazon)",
+    "amount": 112,
+    "category": "Grocery"
   }
 ]
