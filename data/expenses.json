@@ -2217,5 +2217,12 @@
     "description": "Flight back to home",
     "amount": 17031,
     "category": "Transport"
+  },
+  {
+    "id": 1787760846907,
+    "date": "2026-08-26",
+    "description": "Lunch",
+    "amount": 25,
+    "category": "Food"
   }
 ]
