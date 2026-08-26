@@ -2210,5 +2210,12 @@
     "description": "Grocery (Amazon)",
     "amount": 189,
     "category": "Grocery"
+  },
+  {
+    "id": 1787760618254,
+    "date": "2026-08-26",
+    "description": "Flight back to home",
+    "amount": 17031,
+    "category": "Transport"
   }
 ]
