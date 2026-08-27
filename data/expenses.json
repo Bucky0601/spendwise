@@ -2224,5 +2224,12 @@
     "description": "Lunch",
     "amount": 25,
     "category": "Food"
+  },
+  {
+    "id": 1787826664090,
+    "date": "2026-08-27",
+    "description": "Rakhi",
+    "amount": 175,
+    "category": "Other"
   }
 ]
