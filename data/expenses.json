@@ -2238,5 +2238,12 @@
     "description": "Sweet + dal",
     "amount": 901,
     "category": "Grocery"
+  },
+  {
+    "id": 1787845823888,
+    "date": "2026-08-27",
+    "description": "Car freshner",
+    "amount": 299,
+    "category": "Shopping"
   }
 ]
