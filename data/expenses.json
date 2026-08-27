@@ -2231,5 +2231,12 @@
     "description": "Rakhi",
     "amount": 175,
     "category": "Other"
+  },
+  {
+    "id": 1787827138730,
+    "date": "2026-08-27",
+    "description": "Sweet + dal",
+    "amount": 901,
+    "category": "Grocery"
   }
 ]
