@@ -2245,5 +2245,12 @@
     "description": "Car freshner",
     "amount": 299,
     "category": "Shopping"
+  },
+  {
+    "id": 1787880591616,
+    "date": "2026-08-28",
+    "description": "Medicine calcium",
+    "amount": 806.04,
+    "category": "Health"
   }
 ]
