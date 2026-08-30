@@ -2252,5 +2252,12 @@
     "description": "Medicine calcium",
     "amount": 806.04,
     "category": "Health"
+  },
+  {
+    "id": 1788094148644,
+    "date": "2026-08-30",
+    "description": "Momos",
+    "amount": 437,
+    "category": "Food"
   }
 ]
