@@ -2280,5 +2280,12 @@
     "description": "Room rent",
     "amount": 33051,
     "category": "Rent"
+  },
+  {
+    "id": 1788269108295,
+    "date": "2026-09-01",
+    "description": "Bbmp cleaners payment",
+    "amount": 100,
+    "category": "Rent"
   }
 ]
