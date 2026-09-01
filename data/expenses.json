@@ -2273,5 +2273,12 @@
     "description": "Grocery (Amazon)",
     "amount": 506,
     "category": "Grocery"
+  },
+  {
+    "id": 1788269090872,
+    "date": "2026-09-01",
+    "description": "Room rent",
+    "amount": 33051,
+    "category": "Rent"
   }
 ]
