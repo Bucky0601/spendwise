@@ -2259,5 +2259,12 @@
     "description": "Momos",
     "amount": 437,
     "category": "Food"
+  },
+  {
+    "id": 1788269026056,
+    "date": "2026-09-01",
+    "description": "Pizza eatclub",
+    "amount": 385,
+    "category": "Food"
   }
 ]
