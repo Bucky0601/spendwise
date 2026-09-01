@@ -2266,5 +2266,12 @@
     "description": "Pizza eatclub",
     "amount": 385,
     "category": "Food"
+  },
+  {
+    "id": 1788269046475,
+    "date": "2026-09-01",
+    "description": "Grocery (Amazon)",
+    "amount": 506,
+    "category": "Grocery"
   }
 ]
