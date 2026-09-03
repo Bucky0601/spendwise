@@ -2301,5 +2301,12 @@
     "description": "Juice",
     "amount": 80,
     "category": "Food"
+  },
+  {
+    "id": 1788440849141,
+    "date": "2026-09-03",
+    "description": "Grocery (local)",
+    "amount": 298,
+    "category": "Grocery"
   }
 ]
