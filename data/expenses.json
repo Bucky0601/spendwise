@@ -2287,5 +2287,12 @@
     "description": "Bbmp cleaners payment",
     "amount": 100,
     "category": "Rent"
+  },
+  {
+    "id": 1788440822885,
+    "date": "2026-09-03",
+    "description": "Vada pav",
+    "amount": 108,
+    "category": "Food"
   }
 ]
