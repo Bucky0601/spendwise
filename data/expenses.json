@@ -2315,5 +2315,12 @@
     "description": "Grocery (flipkart)",
     "amount": 225,
     "category": "Grocery"
+  },
+  {
+    "id": 1788595767311,
+    "date": "2026-09-05",
+    "description": "Grocery (zepto)",
+    "amount": 319,
+    "category": "Grocery"
   }
 ]
