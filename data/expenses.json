@@ -2322,5 +2322,12 @@
     "description": "Grocery (zepto)",
     "amount": 319,
     "category": "Grocery"
+  },
+  {
+    "id": 1788602743336,
+    "date": "2026-09-05",
+    "description": "Grocery (big basket)",
+    "amount": 746.58,
+    "category": "Grocery"
   }
 ]
