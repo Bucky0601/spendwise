@@ -2329,5 +2329,12 @@
     "description": "Grocery (big basket)",
     "amount": 746.58,
     "category": "Grocery"
+  },
+  {
+    "id": 1788691464444,
+    "date": "2026-09-06",
+    "description": "Electricity bill (BANGALORE)",
+    "amount": 491,
+    "category": "Bills & Utilities"
   }
 ]
