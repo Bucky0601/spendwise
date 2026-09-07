@@ -2336,5 +2336,12 @@
     "description": "Electricity bill (BANGALORE)",
     "amount": 491,
     "category": "Bills & Utilities"
+  },
+  {
+    "id": 1788782439444,
+    "date": "2026-09-07",
+    "description": "Samosas and jalebi",
+    "amount": 125,
+    "category": "Food"
   }
 ]
