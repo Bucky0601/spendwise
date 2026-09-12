@@ -2357,5 +2357,12 @@
     "description": "Grocery (Amazon)",
     "amount": 314,
     "category": "Grocery"
+  },
+  {
+    "id": 1789185896957,
+    "date": "2026-09-12",
+    "description": "Car Petrol and washing",
+    "amount": 3851,
+    "category": "Transport"
   }
 ]
