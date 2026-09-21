@@ -2364,5 +2364,12 @@
     "description": "Car Petrol and washing",
     "amount": 3851,
     "category": "Transport"
+  },
+  {
+    "id": 1789975403786,
+    "date": "2026-09-21",
+    "description": "Toll annual pass",
+    "amount": 3075,
+    "category": "Transport"
   }
 ]
