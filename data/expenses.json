@@ -2371,5 +2371,12 @@
     "description": "Toll annual pass",
     "amount": 3075,
     "category": "Transport"
+  },
+  {
+    "id": 1790244158446,
+    "date": "2026-09-24",
+    "description": "Petrol (Car)",
+    "amount": 2900,
+    "category": "Transport"
   }
 ]
