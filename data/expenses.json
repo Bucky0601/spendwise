@@ -2385,5 +2385,12 @@
     "description": "Brokerage noida flat",
     "amount": 7000,
     "category": "Bills & Utilities"
+  },
+  {
+    "id": 1790347871888,
+    "date": "2026-09-25",
+    "description": "Tips to movers and packers",
+    "amount": 800,
+    "category": "Other"
   }
 ]
