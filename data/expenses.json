@@ -2392,5 +2392,12 @@
     "description": "Tips to movers and packers",
     "amount": 800,
     "category": "Other"
+  },
+  {
+    "id": 1790347927780,
+    "date": "2026-09-25",
+    "description": "Society moving charges",
+    "amount": 2500,
+    "category": "Other"
   }
 ]
