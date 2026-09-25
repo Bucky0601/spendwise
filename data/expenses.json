@@ -2378,5 +2378,12 @@
     "description": "Petrol (Car)",
     "amount": 2900,
     "category": "Transport"
+  },
+  {
+    "id": 1790347852142,
+    "date": "2026-09-25",
+    "description": "Brokerage noida flat",
+    "amount": 7000,
+    "category": "Bills & Utilities"
   }
 ]
