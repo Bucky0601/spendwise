@@ -2399,5 +2399,12 @@
     "description": "Society moving charges",
     "amount": 2500,
     "category": "Other"
+  },
+  {
+    "id": 1790347991229,
+    "date": "2026-09-25",
+    "description": "Rent agreement + police verification",
+    "amount": 1500,
+    "category": "Other"
   }
 ]
