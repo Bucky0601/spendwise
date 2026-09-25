@@ -2406,5 +2406,12 @@
     "description": "Rent agreement + police verification",
     "amount": 1500,
     "category": "Other"
+  },
+  {
+    "id": 1790348076766,
+    "date": "2026-09-25",
+    "description": "Noida flat advance",
+    "amount": 24500,
+    "category": "Rent"
   }
 ]
