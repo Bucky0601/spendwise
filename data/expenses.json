@@ -2413,5 +2413,12 @@
     "description": "Noida flat advance",
     "amount": 24500,
     "category": "Rent"
+  },
+  {
+    "id": 1790393229654,
+    "date": "2026-09-26",
+    "description": "Ac installation",
+    "amount": 1440.89,
+    "category": "Bills & Utilities"
   }
 ]
