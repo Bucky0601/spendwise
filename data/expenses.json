@@ -2420,5 +2420,12 @@
     "description": "Ac installation",
     "amount": 1440.89,
     "category": "Bills & Utilities"
+  },
+  {
+    "id": 1790486745535,
+    "date": "2026-09-27",
+    "description": "Rfid society",
+    "amount": 500,
+    "category": "Transport"
   }
 ]
