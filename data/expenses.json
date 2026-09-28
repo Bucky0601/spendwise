@@ -2427,5 +2427,12 @@
     "description": "Rfid society",
     "amount": 500,
     "category": "Transport"
+  },
+  {
+    "id": 1790597383957,
+    "date": "2026-09-28",
+    "description": "Grocery (blinkit)",
+    "amount": 233,
+    "category": "Grocery"
   }
 ]
