@@ -2462,5 +2462,12 @@
     "description": "Maa restaurant",
     "amount": 924,
     "category": "Food"
+  },
+  {
+    "id": 1790917208304,
+    "date": "2026-10-01",
+    "description": "Momos + roll",
+    "amount": 180,
+    "category": "Food"
   }
 ]
