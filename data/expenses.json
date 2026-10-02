@@ -2469,5 +2469,12 @@
     "description": "Momos + roll",
     "amount": 180,
     "category": "Food"
+  },
+  {
+    "id": 1790917294495,
+    "date": "2026-10-01",
+    "description": "Anamoly scan",
+    "amount": 3500,
+    "category": "Health"
   }
 ]
