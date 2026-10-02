@@ -2441,5 +2441,12 @@
     "description": "Rent October 2026",
     "amount": 25828,
     "category": "Rent"
+  },
+  {
+    "id": 1790916955309,
+    "date": "2026-10-02",
+    "description": "Grocery (Amazon)",
+    "amount": 975,
+    "category": "Grocery"
   }
 ]
