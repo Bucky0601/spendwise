@@ -2455,5 +2455,12 @@
     "description": "Food",
     "amount": 150,
     "category": "Food"
+  },
+  {
+    "id": 1790917116239,
+    "date": "2026-10-01",
+    "description": "Maa restaurant",
+    "amount": 924,
+    "category": "Food"
   }
 ]
