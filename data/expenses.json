@@ -2434,5 +2434,12 @@
     "description": "Grocery (blinkit)",
     "amount": 233,
     "category": "Grocery"
+  },
+  {
+    "id": 1790916927533,
+    "date": "2026-10-01",
+    "description": "Rent October 2026",
+    "amount": 25828,
+    "category": "Rent"
   }
 ]
