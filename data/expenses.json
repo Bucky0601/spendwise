@@ -2490,5 +2490,12 @@
     "description": "Grocery (Amazon)",
     "amount": 236,
     "category": "Grocery"
+  },
+  {
+    "id": 1791087544763,
+    "date": "2026-10-03",
+    "description": "Nariyal paani",
+    "amount": 320,
+    "category": "Food"
   }
 ]
