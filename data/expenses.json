@@ -2483,5 +2483,12 @@
     "description": "Badminton charges",
     "amount": 1900,
     "category": "Other"
+  },
+  {
+    "id": 1791087510383,
+    "date": "2026-10-04",
+    "description": "Grocery (Amazon)",
+    "amount": 236,
+    "category": "Grocery"
   }
 ]
