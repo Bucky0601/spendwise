@@ -2497,5 +2497,12 @@
     "description": "Nariyal paani",
     "amount": 320,
     "category": "Food"
+  },
+  {
+    "id": 1791135050506,
+    "date": "2026-10-04",
+    "description": "Meesho shopping",
+    "amount": 1341,
+    "category": "Shopping"
   }
 ]
