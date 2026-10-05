@@ -2511,5 +2511,12 @@
     "description": "Grocery (Amazon)",
     "amount": 274,
     "category": "Grocery"
+  },
+  {
+    "id": 1791219828964,
+    "date": "2026-10-05",
+    "description": "Petrol filling scooty",
+    "amount": 300,
+    "category": "Transport"
   }
 ]
