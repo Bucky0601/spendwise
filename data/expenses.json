@@ -2518,5 +2518,12 @@
     "description": "Petrol filling scooty",
     "amount": 300,
     "category": "Transport"
+  },
+  {
+    "id": 1791296947645,
+    "date": "2026-10-06",
+    "description": "New RO fitting",
+    "amount": 6500,
+    "category": "Health"
   }
 ]
