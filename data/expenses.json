@@ -2525,5 +2525,12 @@
     "description": "New RO fitting",
     "amount": 6500,
     "category": "Health"
+  },
+  {
+    "id": 1791383595966,
+    "date": "2026-10-07",
+    "description": "Electricity bill home (amazon)",
+    "amount": 1678,
+    "category": "Bills & Utilities"
   }
 ]
