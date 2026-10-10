@@ -2539,5 +2539,12 @@
     "description": "Grocery (blinkit)",
     "amount": 237,
     "category": "Grocery"
+  },
+  {
+    "id": 1791654353940,
+    "date": "2026-10-10",
+    "description": "Tempered + cover",
+    "amount": 300,
+    "category": "Shopping"
   }
 ]
