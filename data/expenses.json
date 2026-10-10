@@ -2532,5 +2532,12 @@
     "description": "Electricity bill home (amazon)",
     "amount": 1678,
     "category": "Bills & Utilities"
+  },
+  {
+    "id": 1791654243630,
+    "date": "2026-10-10",
+    "description": "Grocery (blinkit)",
+    "amount": 237,
+    "category": "Grocery"
   }
 ]
