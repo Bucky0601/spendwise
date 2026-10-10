@@ -2546,5 +2546,12 @@
     "description": "Tempered + cover",
     "amount": 300,
     "category": "Shopping"
+  },
+  {
+    "id": 1791654371579,
+    "date": "2026-10-10",
+    "description": "Fried rice",
+    "amount": 360,
+    "category": "Food"
   }
 ]
