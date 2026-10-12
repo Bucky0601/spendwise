@@ -2553,5 +2553,12 @@
     "description": "Fried rice",
     "amount": 360,
     "category": "Food"
+  },
+  {
+    "id": 1791802890248,
+    "date": "2026-10-12",
+    "description": "Petrol car",
+    "amount": 2705,
+    "category": "Transport"
   }
 ]
