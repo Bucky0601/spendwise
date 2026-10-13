@@ -2560,5 +2560,12 @@
     "description": "Petrol car",
     "amount": 2705,
     "category": "Transport"
+  },
+  {
+    "id": 1791889414708,
+    "date": "2026-10-13",
+    "description": "DG meter recharge",
+    "amount": 500,
+    "category": "Bills & Utilities"
   }
 ]
