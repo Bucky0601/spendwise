@@ -2567,5 +2567,12 @@
     "description": "DG meter recharge",
     "amount": 500,
     "category": "Bills & Utilities"
+  },
+  {
+    "id": 1791889514997,
+    "date": "2026-10-13",
+    "description": "Dr. Mamta jha consultation",
+    "amount": 900,
+    "category": "Health"
   }
 ]
