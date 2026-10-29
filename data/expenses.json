@@ -2588,5 +2588,12 @@
     "description": "Fruits and nariyal",
     "amount": 540,
     "category": "Food"
+  },
+  {
+    "id": 1793262613963,
+    "date": "2026-10-27",
+    "description": "Car petrol",
+    "amount": 2901.45,
+    "category": "Transport"
   }
 ]
