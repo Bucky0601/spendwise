@@ -2581,5 +2581,12 @@
     "description": "IGL gas bill",
     "amount": 265.17,
     "category": "Bills & Utilities"
+  },
+  {
+    "id": 1793262576636,
+    "date": "2026-10-29",
+    "description": "Fruits and nariyal",
+    "amount": 540,
+    "category": "Food"
   }
 ]
