@@ -2574,5 +2574,12 @@
     "description": "Dr. Mamta jha consultation",
     "amount": 900,
     "category": "Health"
+  },
+  {
+    "id": 1793262532583,
+    "date": "2026-10-28",
+    "description": "IGL gas bill",
+    "amount": 265.17,
+    "category": "Bills & Utilities"
   }
 ]
